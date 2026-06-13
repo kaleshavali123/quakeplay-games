@@ -97,16 +97,17 @@ async function buildSitemap() {
     "</urlset>"
   ].join("\n");
 
-  const outPath = path.join(__dirname, "..", "public", "sitemap.xml");
+  // --- TARGETING FRONTEND/PUBLIC DIRECTLY ---
+  // Since this script runs inside the frontend folder, path.join(__dirname, "public") 
+  // places the file perfectly inside frontend/public/sitemap.xml
+  const outPath = path.join(__dirname, "public", "sitemap.xml");
   const outDir = path.dirname(outPath);
 
-  // --- FIX APPLIED HERE ---
   // Ensure the target directory exists before trying to write the file
   if (!fs.existsSync(outDir)) {
     console.log(`Creating missing directory: ${outDir}`);
     fs.mkdirSync(outDir, { recursive: true });
   }
-  // ------------------------
 
   fs.writeFileSync(outPath, xml, "utf8");
   console.log(`Wrote sitemap with ${urls.length} entries to ${outPath}`);
