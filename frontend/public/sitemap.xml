@@ -1,2473 +1,2557 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://quakeplay.com/</loc>
+    <loc>https://www.quakeplay.com/</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/search</loc>
+    <loc>https://www.quakeplay.com/search</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/om-nom-run</loc>
+    <loc>https://www.quakeplay.com/search?cat=Adventure</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.quakeplay.com/search?cat=Arcade</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.quakeplay.com/search?cat=Brain</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.quakeplay.com/search?cat=Cards</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.quakeplay.com/search?cat=Coloring</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.quakeplay.com/search?cat=Fantasy</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.quakeplay.com/search?cat=Girls</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.quakeplay.com/search?cat=Kids</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.quakeplay.com/search?cat=Match-3</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.quakeplay.com/search?cat=Multiplayer</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.quakeplay.com/search?cat=Puzzle</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.quakeplay.com/search?cat=Racing</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.quakeplay.com/search?cat=Simulation</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.quakeplay.com/search?cat=Sports</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.quakeplay.com/game/om-nom-run</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/garden-bloom</loc>
+    <loc>https://www.quakeplay.com/game/garden-bloom</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/bubble-tower-3d</loc>
+    <loc>https://www.quakeplay.com/game/bubble-tower-3d</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/cannon-balls-3d</loc>
+    <loc>https://www.quakeplay.com/game/cannon-balls-3d</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/tower-crash-3d</loc>
+    <loc>https://www.quakeplay.com/game/tower-crash-3d</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/element-blocks</loc>
+    <loc>https://www.quakeplay.com/game/element-blocks</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/zoo-boom</loc>
+    <loc>https://www.quakeplay.com/game/zoo-boom</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/moto-x3m-pool-party</loc>
+    <loc>https://www.quakeplay.com/game/moto-x3m-pool-party</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/bubble-woods</loc>
+    <loc>https://www.quakeplay.com/game/bubble-woods</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/3d-free-kick</loc>
+    <loc>https://www.quakeplay.com/game/3d-free-kick</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/8-ball-billiards-classic</loc>
+    <loc>https://www.quakeplay.com/game/8-ball-billiards-classic</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/archery-world-tour</loc>
+    <loc>https://www.quakeplay.com/game/archery-world-tour</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/totemia-cursed-marbles</loc>
+    <loc>https://www.quakeplay.com/game/totemia-cursed-marbles</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/table-tennis-world-tour</loc>
+    <loc>https://www.quakeplay.com/game/table-tennis-world-tour</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/solitaire-klondike</loc>
+    <loc>https://www.quakeplay.com/game/solitaire-klondike</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/onet-connect-classic</loc>
+    <loc>https://www.quakeplay.com/game/onet-connect-classic</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/diamond-rush</loc>
+    <loc>https://www.quakeplay.com/game/diamond-rush</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/truck-trials</loc>
+    <loc>https://www.quakeplay.com/game/truck-trials</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/endless-truck</loc>
+    <loc>https://www.quakeplay.com/game/endless-truck</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/candy-bubble</loc>
+    <loc>https://www.quakeplay.com/game/candy-bubble</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/gold-mine</loc>
+    <loc>https://www.quakeplay.com/game/gold-mine</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/temple-blocks</loc>
+    <loc>https://www.quakeplay.com/game/temple-blocks</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/fun-race-3d</loc>
+    <loc>https://www.quakeplay.com/game/fun-race-3d</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/cut-the-rope-time-travel</loc>
+    <loc>https://www.quakeplay.com/game/cut-the-rope-time-travel</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/cut-the-rope-2</loc>
+    <loc>https://www.quakeplay.com/game/cut-the-rope-2</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/cut-the-rope-experiment</loc>
+    <loc>https://www.quakeplay.com/game/cut-the-rope-experiment</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/glass-break</loc>
+    <loc>https://www.quakeplay.com/game/glass-break</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/dye-hard</loc>
+    <loc>https://www.quakeplay.com/game/dye-hard</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/star-stars-arena</loc>
+    <loc>https://www.quakeplay.com/game/star-stars-arena</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/jelly-run-2048</loc>
+    <loc>https://www.quakeplay.com/game/jelly-run-2048</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/who-dies-last</loc>
+    <loc>https://www.quakeplay.com/game/who-dies-last</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/cut-the-rope-magic</loc>
+    <loc>https://www.quakeplay.com/game/cut-the-rope-magic</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/bouncemasters</loc>
+    <loc>https://www.quakeplay.com/game/bouncemasters</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/cars-arena</loc>
+    <loc>https://www.quakeplay.com/game/cars-arena</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/state-connect</loc>
+    <loc>https://www.quakeplay.com/game/state-connect</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/teeth-runner</loc>
+    <loc>https://www.quakeplay.com/game/teeth-runner</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/om-nom-tower-3d</loc>
+    <loc>https://www.quakeplay.com/game/om-nom-tower-3d</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/train-miner</loc>
+    <loc>https://www.quakeplay.com/game/train-miner</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/giant-rush</loc>
+    <loc>https://www.quakeplay.com/game/giant-rush</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/rise-up</loc>
+    <loc>https://www.quakeplay.com/game/rise-up</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/western-sniper</loc>
+    <loc>https://www.quakeplay.com/game/western-sniper</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/go-escape</loc>
+    <loc>https://www.quakeplay.com/game/go-escape</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/color-fill-3d</loc>
+    <loc>https://www.quakeplay.com/game/color-fill-3d</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/spot-the-cat</loc>
+    <loc>https://www.quakeplay.com/game/spot-the-cat</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/color-roll-3d</loc>
+    <loc>https://www.quakeplay.com/game/color-roll-3d</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/color-water-sort-3d</loc>
+    <loc>https://www.quakeplay.com/game/color-water-sort-3d</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/braindom</loc>
+    <loc>https://www.quakeplay.com/game/braindom</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/sort-it</loc>
+    <loc>https://www.quakeplay.com/game/sort-it</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/cube-match</loc>
+    <loc>https://www.quakeplay.com/game/cube-match</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/parking-jam</loc>
+    <loc>https://www.quakeplay.com/game/parking-jam</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/fashion-battle</loc>
+    <loc>https://www.quakeplay.com/game/fashion-battle</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/fruit-party</loc>
+    <loc>https://www.quakeplay.com/game/fruit-party</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/thief-puzzle</loc>
+    <loc>https://www.quakeplay.com/game/thief-puzzle</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/guess-their-answer</loc>
+    <loc>https://www.quakeplay.com/game/guess-their-answer</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/neon-rider</loc>
+    <loc>https://www.quakeplay.com/game/neon-rider</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/speed-master</loc>
+    <loc>https://www.quakeplay.com/game/speed-master</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/alien-attack</loc>
+    <loc>https://www.quakeplay.com/game/alien-attack</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/peet-sneak</loc>
+    <loc>https://www.quakeplay.com/game/peet-sneak</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/cut-the-rope</loc>
+    <loc>https://www.quakeplay.com/game/cut-the-rope</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/toilet-run</loc>
+    <loc>https://www.quakeplay.com/game/toilet-run</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/block-painter</loc>
+    <loc>https://www.quakeplay.com/game/block-painter</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/pair-up-3d</loc>
+    <loc>https://www.quakeplay.com/game/pair-up-3d</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/cowboy-swing</loc>
+    <loc>https://www.quakeplay.com/game/cowboy-swing</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/go-around</loc>
+    <loc>https://www.quakeplay.com/game/go-around</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/green-ball</loc>
+    <loc>https://www.quakeplay.com/game/green-ball</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/twisty-lines</loc>
+    <loc>https://www.quakeplay.com/game/twisty-lines</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/lawn-mower</loc>
+    <loc>https://www.quakeplay.com/game/lawn-mower</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/rising-squares</loc>
+    <loc>https://www.quakeplay.com/game/rising-squares</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/tower-fall</loc>
+    <loc>https://www.quakeplay.com/game/tower-fall</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/emoji-fun</loc>
+    <loc>https://www.quakeplay.com/game/emoji-fun</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/bottle-flip</loc>
+    <loc>https://www.quakeplay.com/game/bottle-flip</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/slime-road</loc>
+    <loc>https://www.quakeplay.com/game/slime-road</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/pipe-puzzle</loc>
+    <loc>https://www.quakeplay.com/game/pipe-puzzle</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/funny-fred</loc>
+    <loc>https://www.quakeplay.com/game/funny-fred</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/barbara-kent</loc>
+    <loc>https://www.quakeplay.com/game/barbara-kent</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/super-thrower</loc>
+    <loc>https://www.quakeplay.com/game/super-thrower</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/parking-panic</loc>
+    <loc>https://www.quakeplay.com/game/parking-panic</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/food-rush</loc>
+    <loc>https://www.quakeplay.com/game/food-rush</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/parking-rush</loc>
+    <loc>https://www.quakeplay.com/game/parking-rush</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/gun-spin</loc>
+    <loc>https://www.quakeplay.com/game/gun-spin</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/giant-attack</loc>
+    <loc>https://www.quakeplay.com/game/giant-attack</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/good-shelves</loc>
+    <loc>https://www.quakeplay.com/game/good-shelves</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/crazy-hen-level</loc>
+    <loc>https://www.quakeplay.com/game/crazy-hen-level</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/dance-battle</loc>
+    <loc>https://www.quakeplay.com/game/dance-battle</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/tile-journey</loc>
+    <loc>https://www.quakeplay.com/game/tile-journey</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/love-tester</loc>
+    <loc>https://www.quakeplay.com/game/love-tester</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/emoji-match</loc>
+    <loc>https://www.quakeplay.com/game/emoji-match</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/tower-smash</loc>
+    <loc>https://www.quakeplay.com/game/tower-smash</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/tower-smash-level</loc>
+    <loc>https://www.quakeplay.com/game/tower-smash-level</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/save-the-princess</loc>
+    <loc>https://www.quakeplay.com/game/save-the-princess</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/peet-a-lock</loc>
+    <loc>https://www.quakeplay.com/game/peet-a-lock</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/peet-around</loc>
+    <loc>https://www.quakeplay.com/game/peet-around</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/pengu-slide</loc>
+    <loc>https://www.quakeplay.com/game/pengu-slide</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/words-of-wonders</loc>
+    <loc>https://www.quakeplay.com/game/words-of-wonders</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/emoji-flow</loc>
+    <loc>https://www.quakeplay.com/game/emoji-flow</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/neon-swing</loc>
+    <loc>https://www.quakeplay.com/game/neon-swing</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/neon-tower</loc>
+    <loc>https://www.quakeplay.com/game/neon-tower</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/drift-dudes</loc>
+    <loc>https://www.quakeplay.com/game/drift-dudes</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/slope</loc>
+    <loc>https://www.quakeplay.com/game/slope</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/cubito</loc>
+    <loc>https://www.quakeplay.com/game/cubito</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/tap-tap-dunk</loc>
+    <loc>https://www.quakeplay.com/game/tap-tap-dunk</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/ramp</loc>
+    <loc>https://www.quakeplay.com/game/ramp</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/diamond-rush-2</loc>
+    <loc>https://www.quakeplay.com/game/diamond-rush-2</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/color-tunnel</loc>
+    <loc>https://www.quakeplay.com/game/color-tunnel</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/butterfly-shimai</loc>
+    <loc>https://www.quakeplay.com/game/butterfly-shimai</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/e-scooter</loc>
+    <loc>https://www.quakeplay.com/game/e-scooter</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/pop-it-duel</loc>
+    <loc>https://www.quakeplay.com/game/pop-it-duel</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/stair-race-3d</loc>
+    <loc>https://www.quakeplay.com/game/stair-race-3d</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/crowd-run-3d</loc>
+    <loc>https://www.quakeplay.com/game/crowd-run-3d</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/uncle-ahmed</loc>
+    <loc>https://www.quakeplay.com/game/uncle-ahmed</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/dices-2048-3d</loc>
+    <loc>https://www.quakeplay.com/game/dices-2048-3d</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/frankenstein-go</loc>
+    <loc>https://www.quakeplay.com/game/frankenstein-go</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/om-nom-connect-classic</loc>
+    <loc>https://www.quakeplay.com/game/om-nom-connect-classic</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/om-nom-bubbles</loc>
+    <loc>https://www.quakeplay.com/game/om-nom-bubbles</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/pop-it-3d</loc>
+    <loc>https://www.quakeplay.com/game/pop-it-3d</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/traffic-tom</loc>
+    <loc>https://www.quakeplay.com/game/traffic-tom</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/onet-gallery-3d</loc>
+    <loc>https://www.quakeplay.com/game/onet-gallery-3d</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/euro-penalty-cup-2021</loc>
+    <loc>https://www.quakeplay.com/game/euro-penalty-cup-2021</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/train-2048</loc>
+    <loc>https://www.quakeplay.com/game/train-2048</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/giant-2048</loc>
+    <loc>https://www.quakeplay.com/game/giant-2048</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/fuzzies</loc>
+    <loc>https://www.quakeplay.com/game/fuzzies</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/brain-trainer</loc>
+    <loc>https://www.quakeplay.com/game/brain-trainer</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/garden-match-3d</loc>
+    <loc>https://www.quakeplay.com/game/garden-match-3d</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/pull-pins</loc>
+    <loc>https://www.quakeplay.com/game/pull-pins</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/mahjong-world</loc>
+    <loc>https://www.quakeplay.com/game/mahjong-world</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/bus-parking-3d</loc>
+    <loc>https://www.quakeplay.com/game/bus-parking-3d</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/crazy-caves</loc>
+    <loc>https://www.quakeplay.com/game/crazy-caves</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/hoop-royale</loc>
+    <loc>https://www.quakeplay.com/game/hoop-royale</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/tnt-bomb</loc>
+    <loc>https://www.quakeplay.com/game/tnt-bomb</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/smarty-bubbles-2</loc>
+    <loc>https://www.quakeplay.com/game/smarty-bubbles-2</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/stack-smash</loc>
+    <loc>https://www.quakeplay.com/game/stack-smash</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/mahjong-3d</loc>
+    <loc>https://www.quakeplay.com/game/mahjong-3d</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/monkey-bounce</loc>
+    <loc>https://www.quakeplay.com/game/monkey-bounce</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/curve-ball-3d</loc>
+    <loc>https://www.quakeplay.com/game/curve-ball-3d</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/slice-rush</loc>
+    <loc>https://www.quakeplay.com/game/slice-rush</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/hippo-pizza-chef</loc>
+    <loc>https://www.quakeplay.com/game/hippo-pizza-chef</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/domino-frenzy</loc>
+    <loc>https://www.quakeplay.com/game/domino-frenzy</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/pets-rush</loc>
+    <loc>https://www.quakeplay.com/game/pets-rush</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/zoo-feeder</loc>
+    <loc>https://www.quakeplay.com/game/zoo-feeder</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/crossover-21</loc>
+    <loc>https://www.quakeplay.com/game/crossover-21</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/element-balls</loc>
+    <loc>https://www.quakeplay.com/game/element-balls</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/sushi-roll</loc>
+    <loc>https://www.quakeplay.com/game/sushi-roll</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/onet-world</loc>
+    <loc>https://www.quakeplay.com/game/onet-world</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/blocks-puzzle-zoo</loc>
+    <loc>https://www.quakeplay.com/game/blocks-puzzle-zoo</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/emergency-surgery</loc>
+    <loc>https://www.quakeplay.com/game/emergency-surgery</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/pirate-cards</loc>
+    <loc>https://www.quakeplay.com/game/pirate-cards</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/wiggle</loc>
+    <loc>https://www.quakeplay.com/game/wiggle</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/adventure-drivers</loc>
+    <loc>https://www.quakeplay.com/game/adventure-drivers</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/moto-x3m</loc>
+    <loc>https://www.quakeplay.com/game/moto-x3m</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/solitaire-legend</loc>
+    <loc>https://www.quakeplay.com/game/solitaire-legend</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/kawaii-chibi-creator</loc>
+    <loc>https://www.quakeplay.com/game/kawaii-chibi-creator</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/find-in-mind</loc>
+    <loc>https://www.quakeplay.com/game/find-in-mind</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/merge-jewels</loc>
+    <loc>https://www.quakeplay.com/game/merge-jewels</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/high-hills</loc>
+    <loc>https://www.quakeplay.com/game/high-hills</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/knife-rain</loc>
+    <loc>https://www.quakeplay.com/game/knife-rain</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/maze</loc>
+    <loc>https://www.quakeplay.com/game/maze</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/1000-blocks</loc>
+    <loc>https://www.quakeplay.com/game/1000-blocks</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/bunny-quest</loc>
+    <loc>https://www.quakeplay.com/game/bunny-quest</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/drag-racing-club</loc>
+    <loc>https://www.quakeplay.com/game/drag-racing-club</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/3d-basketball</loc>
+    <loc>https://www.quakeplay.com/game/3d-basketball</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/3d-chess</loc>
+    <loc>https://www.quakeplay.com/game/3d-chess</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/3d-darts</loc>
+    <loc>https://www.quakeplay.com/game/3d-darts</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/baby-lily-birthday</loc>
+    <loc>https://www.quakeplay.com/game/baby-lily-birthday</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/baby-lily-care</loc>
+    <loc>https://www.quakeplay.com/game/baby-lily-care</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/baby-lily-sick-day</loc>
+    <loc>https://www.quakeplay.com/game/baby-lily-sick-day</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/dunk-brush</loc>
+    <loc>https://www.quakeplay.com/game/dunk-brush</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/goalkeeper-champ</loc>
+    <loc>https://www.quakeplay.com/game/goalkeeper-champ</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/my-fairytale-deer</loc>
+    <loc>https://www.quakeplay.com/game/my-fairytale-deer</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/my-fairytale-water-horse</loc>
+    <loc>https://www.quakeplay.com/game/my-fairytale-water-horse</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/blaze-kick</loc>
+    <loc>https://www.quakeplay.com/game/blaze-kick</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/happy-panda</loc>
+    <loc>https://www.quakeplay.com/game/happy-panda</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/happy-koala</loc>
+    <loc>https://www.quakeplay.com/game/happy-koala</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/perfect-piano</loc>
+    <loc>https://www.quakeplay.com/game/perfect-piano</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/sailor-girls-avatar-maker</loc>
+    <loc>https://www.quakeplay.com/game/sailor-girls-avatar-maker</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/cheap-golf</loc>
+    <loc>https://www.quakeplay.com/game/cheap-golf</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/jigsaw-puzzle-deluxe</loc>
+    <loc>https://www.quakeplay.com/game/jigsaw-puzzle-deluxe</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/3d-anime-fantasy</loc>
+    <loc>https://www.quakeplay.com/game/3d-anime-fantasy</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/3d-free-kick-world-cup-18</loc>
+    <loc>https://www.quakeplay.com/game/3d-free-kick-world-cup-18</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/cute-unicorn-care</loc>
+    <loc>https://www.quakeplay.com/game/cute-unicorn-care</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/kumba-kool</loc>
+    <loc>https://www.quakeplay.com/game/kumba-kool</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/3d-air-hockey</loc>
+    <loc>https://www.quakeplay.com/game/3d-air-hockey</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/soccer-champ-2018</loc>
+    <loc>https://www.quakeplay.com/game/soccer-champ-2018</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/3d-bowling</loc>
+    <loc>https://www.quakeplay.com/game/3d-bowling</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/soccertastic-world-cup-18</loc>
+    <loc>https://www.quakeplay.com/game/soccertastic-world-cup-18</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/my-fairytale-tiger</loc>
+    <loc>https://www.quakeplay.com/game/my-fairytale-tiger</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/happy-lemur</loc>
+    <loc>https://www.quakeplay.com/game/happy-lemur</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/pie-realife-cooking</loc>
+    <loc>https://www.quakeplay.com/game/pie-realife-cooking</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/tap-my-water</loc>
+    <loc>https://www.quakeplay.com/game/tap-my-water</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/pizza-realife-cooking</loc>
+    <loc>https://www.quakeplay.com/game/pizza-realife-cooking</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/world-cup-penalty-2018</loc>
+    <loc>https://www.quakeplay.com/game/world-cup-penalty-2018</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/race-right</loc>
+    <loc>https://www.quakeplay.com/game/race-right</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/mahjong-flowers</loc>
+    <loc>https://www.quakeplay.com/game/mahjong-flowers</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/tina-detective</loc>
+    <loc>https://www.quakeplay.com/game/tina-detective</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/nina-detective</loc>
+    <loc>https://www.quakeplay.com/game/nina-detective</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/dominoes-classic</loc>
+    <loc>https://www.quakeplay.com/game/dominoes-classic</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/cute-kitty-care</loc>
+    <loc>https://www.quakeplay.com/game/cute-kitty-care</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/cute-puppy-care</loc>
+    <loc>https://www.quakeplay.com/game/cute-puppy-care</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/tina-pop-star</loc>
+    <loc>https://www.quakeplay.com/game/tina-pop-star</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/nina-pop-star</loc>
+    <loc>https://www.quakeplay.com/game/nina-pop-star</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/kitchen-mahjong-classic</loc>
+    <loc>https://www.quakeplay.com/game/kitchen-mahjong-classic</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/mahjong-connect-classic</loc>
+    <loc>https://www.quakeplay.com/game/mahjong-connect-classic</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/defly-io</loc>
+    <loc>https://www.quakeplay.com/game/defly-io</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/color-pixel-art-classic</loc>
+    <loc>https://www.quakeplay.com/game/color-pixel-art-classic</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/my-fairytale-unicorn</loc>
+    <loc>https://www.quakeplay.com/game/my-fairytale-unicorn</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/my-fairytale-griffin</loc>
+    <loc>https://www.quakeplay.com/game/my-fairytale-griffin</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/my-fairytale-wolf</loc>
+    <loc>https://www.quakeplay.com/game/my-fairytale-wolf</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/happy-elephant</loc>
+    <loc>https://www.quakeplay.com/game/happy-elephant</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/my-fairytale-dragon</loc>
+    <loc>https://www.quakeplay.com/game/my-fairytale-dragon</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/the-little-giant</loc>
+    <loc>https://www.quakeplay.com/game/the-little-giant</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/surfer-archers</loc>
+    <loc>https://www.quakeplay.com/game/surfer-archers</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/happy-chipmunk</loc>
+    <loc>https://www.quakeplay.com/game/happy-chipmunk</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/happy-bunny</loc>
+    <loc>https://www.quakeplay.com/game/happy-bunny</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/happy-fox</loc>
+    <loc>https://www.quakeplay.com/game/happy-fox</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/word-search-classic</loc>
+    <loc>https://www.quakeplay.com/game/word-search-classic</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/nina-costume-party</loc>
+    <loc>https://www.quakeplay.com/game/nina-costume-party</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/tina-costume-party</loc>
+    <loc>https://www.quakeplay.com/game/tina-costume-party</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/tina-great-summer-day</loc>
+    <loc>https://www.quakeplay.com/game/tina-great-summer-day</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/nina-great-summer-day</loc>
+    <loc>https://www.quakeplay.com/game/nina-great-summer-day</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/street-hoops-3d</loc>
+    <loc>https://www.quakeplay.com/game/street-hoops-3d</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/square-stacker</loc>
+    <loc>https://www.quakeplay.com/game/square-stacker</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/find-500-differences</loc>
+    <loc>https://www.quakeplay.com/game/find-500-differences</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/bffs-house-party</loc>
+    <loc>https://www.quakeplay.com/game/bffs-house-party</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/the-ways</loc>
+    <loc>https://www.quakeplay.com/game/the-ways</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/mafia-poker</loc>
+    <loc>https://www.quakeplay.com/game/mafia-poker</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/tina-airlines</loc>
+    <loc>https://www.quakeplay.com/game/tina-airlines</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/winter-makeup</loc>
+    <loc>https://www.quakeplay.com/game/winter-makeup</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/yatzy-classic</loc>
+    <loc>https://www.quakeplay.com/game/yatzy-classic</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/jewel-aquarium</loc>
+    <loc>https://www.quakeplay.com/game/jewel-aquarium</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/biker-street</loc>
+    <loc>https://www.quakeplay.com/game/biker-street</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/angry-flappy-wings</loc>
+    <loc>https://www.quakeplay.com/game/angry-flappy-wings</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/slam-dunk-basketball</loc>
+    <loc>https://www.quakeplay.com/game/slam-dunk-basketball</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/word-detector</loc>
+    <loc>https://www.quakeplay.com/game/word-detector</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/jewel-christmas</loc>
+    <loc>https://www.quakeplay.com/game/jewel-christmas</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/nina-airlines</loc>
+    <loc>https://www.quakeplay.com/game/nina-airlines</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/onet-connect-christmas</loc>
+    <loc>https://www.quakeplay.com/game/onet-connect-christmas</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/highway-rider-extreme</loc>
+    <loc>https://www.quakeplay.com/game/highway-rider-extreme</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/dragon-fire-fury</loc>
+    <loc>https://www.quakeplay.com/game/dragon-fire-fury</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/solitaire-classic-christmas</loc>
+    <loc>https://www.quakeplay.com/game/solitaire-classic-christmas</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/matching-card-heroes</loc>
+    <loc>https://www.quakeplay.com/game/matching-card-heroes</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/happy-dog</loc>
+    <loc>https://www.quakeplay.com/game/happy-dog</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/fruit-crush-frenzy</loc>
+    <loc>https://www.quakeplay.com/game/fruit-crush-frenzy</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/city-dunk</loc>
+    <loc>https://www.quakeplay.com/game/city-dunk</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/nina-ballet-star</loc>
+    <loc>https://www.quakeplay.com/game/nina-ballet-star</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/tina-ballet-star</loc>
+    <loc>https://www.quakeplay.com/game/tina-ballet-star</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/color-shape</loc>
+    <loc>https://www.quakeplay.com/game/color-shape</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/kitten-match</loc>
+    <loc>https://www.quakeplay.com/game/kitten-match</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/hex-zen</loc>
+    <loc>https://www.quakeplay.com/game/hex-zen</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/gin-rummy-plus</loc>
+    <loc>https://www.quakeplay.com/game/gin-rummy-plus</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/3d-solitaire</loc>
+    <loc>https://www.quakeplay.com/game/3d-solitaire</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/moto-fury</loc>
+    <loc>https://www.quakeplay.com/game/moto-fury</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/jungle-roller</loc>
+    <loc>https://www.quakeplay.com/game/jungle-roller</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/basket-monsterz</loc>
+    <loc>https://www.quakeplay.com/game/basket-monsterz</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/jewel-duel</loc>
+    <loc>https://www.quakeplay.com/game/jewel-duel</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/tina-learn-to-ballet</loc>
+    <loc>https://www.quakeplay.com/game/tina-learn-to-ballet</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/tina-surfer-girl</loc>
+    <loc>https://www.quakeplay.com/game/tina-surfer-girl</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/happy-cat</loc>
+    <loc>https://www.quakeplay.com/game/happy-cat</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/pirates-the-match-3</loc>
+    <loc>https://www.quakeplay.com/game/pirates-the-match-3</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/allez-hop</loc>
+    <loc>https://www.quakeplay.com/game/allez-hop</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/super-plumber-run</loc>
+    <loc>https://www.quakeplay.com/game/super-plumber-run</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/nina-surfer-girl</loc>
+    <loc>https://www.quakeplay.com/game/nina-surfer-girl</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/happy-pony</loc>
+    <loc>https://www.quakeplay.com/game/happy-pony</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/boat-battles</loc>
+    <loc>https://www.quakeplay.com/game/boat-battles</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/billiard-blitz-challenge</loc>
+    <loc>https://www.quakeplay.com/game/billiard-blitz-challenge</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/tina-back-to-school</loc>
+    <loc>https://www.quakeplay.com/game/tina-back-to-school</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/jump-with-justin</loc>
+    <loc>https://www.quakeplay.com/game/jump-with-justin</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/momo-pop</loc>
+    <loc>https://www.quakeplay.com/game/momo-pop</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/duo-cards</loc>
+    <loc>https://www.quakeplay.com/game/duo-cards</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/drift-cup-racing</loc>
+    <loc>https://www.quakeplay.com/game/drift-cup-racing</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/blackjack-bet</loc>
+    <loc>https://www.quakeplay.com/game/blackjack-bet</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/doctor-acorn-2</loc>
+    <loc>https://www.quakeplay.com/game/doctor-acorn-2</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/fidget-spinner-designer</loc>
+    <loc>https://www.quakeplay.com/game/fidget-spinner-designer</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/nina-back-to-school</loc>
+    <loc>https://www.quakeplay.com/game/nina-back-to-school</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/jungle-run</loc>
+    <loc>https://www.quakeplay.com/game/jungle-run</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/okey-classic</loc>
+    <loc>https://www.quakeplay.com/game/okey-classic</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/99-balls</loc>
+    <loc>https://www.quakeplay.com/game/99-balls</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/penalty-shootout-multi-league</loc>
+    <loc>https://www.quakeplay.com/game/penalty-shootout-multi-league</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/tina-wedding</loc>
+    <loc>https://www.quakeplay.com/game/tina-wedding</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/banana-run</loc>
+    <loc>https://www.quakeplay.com/game/banana-run</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/nina-wedding</loc>
+    <loc>https://www.quakeplay.com/game/nina-wedding</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/fidget-spinner-high-score</loc>
+    <loc>https://www.quakeplay.com/game/fidget-spinner-high-score</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/soccer-heads</loc>
+    <loc>https://www.quakeplay.com/game/soccer-heads</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/baboo-rainbow-puzzle</loc>
+    <loc>https://www.quakeplay.com/game/baboo-rainbow-puzzle</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/racing-monster-trucks</loc>
+    <loc>https://www.quakeplay.com/game/racing-monster-trucks</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/kids-block-puzzle</loc>
+    <loc>https://www.quakeplay.com/game/kids-block-puzzle</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/birdy-rush</loc>
+    <loc>https://www.quakeplay.com/game/birdy-rush</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/magic-jewels</loc>
+    <loc>https://www.quakeplay.com/game/magic-jewels</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/hex-blitz</loc>
+    <loc>https://www.quakeplay.com/game/hex-blitz</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/gold-miner-tom</loc>
+    <loc>https://www.quakeplay.com/game/gold-miner-tom</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/freecell-solitaire-classic</loc>
+    <loc>https://www.quakeplay.com/game/freecell-solitaire-classic</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/racing-cars</loc>
+    <loc>https://www.quakeplay.com/game/racing-cars</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/7-words</loc>
+    <loc>https://www.quakeplay.com/game/7-words</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/pick-a-lock</loc>
+    <loc>https://www.quakeplay.com/game/pick-a-lock</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/sea-battleship</loc>
+    <loc>https://www.quakeplay.com/game/sea-battleship</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/fruit-pulp</loc>
+    <loc>https://www.quakeplay.com/game/fruit-pulp</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/vikings-vs-monsters</loc>
+    <loc>https://www.quakeplay.com/game/vikings-vs-monsters</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/penalty-superstar</loc>
+    <loc>https://www.quakeplay.com/game/penalty-superstar</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/word-bird</loc>
+    <loc>https://www.quakeplay.com/game/word-bird</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/sailor-pop</loc>
+    <loc>https://www.quakeplay.com/game/sailor-pop</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/carol-s-temp-job</loc>
+    <loc>https://www.quakeplay.com/game/carol-s-temp-job</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/gym-mania</loc>
+    <loc>https://www.quakeplay.com/game/gym-mania</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/jewels-mania</loc>
+    <loc>https://www.quakeplay.com/game/jewels-mania</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/thug-racer</loc>
+    <loc>https://www.quakeplay.com/game/thug-racer</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/bottle-flip-challenge</loc>
+    <loc>https://www.quakeplay.com/game/bottle-flip-challenge</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/mandala-coloring-book</loc>
+    <loc>https://www.quakeplay.com/game/mandala-coloring-book</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/3d-penalty</loc>
+    <loc>https://www.quakeplay.com/game/3d-penalty</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/eleven-eleven</loc>
+    <loc>https://www.quakeplay.com/game/eleven-eleven</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/jigsaw-puzzle-xmas</loc>
+    <loc>https://www.quakeplay.com/game/jigsaw-puzzle-xmas</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/4-in-a-row</loc>
+    <loc>https://www.quakeplay.com/game/4-in-a-row</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/alien-quest</loc>
+    <loc>https://www.quakeplay.com/game/alien-quest</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/sweet-hangman</loc>
+    <loc>https://www.quakeplay.com/game/sweet-hangman</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/color-pin</loc>
+    <loc>https://www.quakeplay.com/game/color-pin</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/jewel-jungle</loc>
+    <loc>https://www.quakeplay.com/game/jewel-jungle</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/classic-bowling</loc>
+    <loc>https://www.quakeplay.com/game/classic-bowling</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/reversi</loc>
+    <loc>https://www.quakeplay.com/game/reversi</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/baseball-pro</loc>
+    <loc>https://www.quakeplay.com/game/baseball-pro</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/mahjong-master-2</loc>
+    <loc>https://www.quakeplay.com/game/mahjong-master-2</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/4x-puzzle</loc>
+    <loc>https://www.quakeplay.com/game/4x-puzzle</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/kids-color-book-2</loc>
+    <loc>https://www.quakeplay.com/game/kids-color-book-2</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/jigsaw-puzzle-classic</loc>
+    <loc>https://www.quakeplay.com/game/jigsaw-puzzle-classic</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/colorpop</loc>
+    <loc>https://www.quakeplay.com/game/colorpop</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/tri-peaks-solitaire-classic</loc>
+    <loc>https://www.quakeplay.com/game/tri-peaks-solitaire-classic</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/sheep-s-adventure</loc>
+    <loc>https://www.quakeplay.com/game/sheep-s-adventure</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/checkers-classic</loc>
+    <loc>https://www.quakeplay.com/game/checkers-classic</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/secret-bff</loc>
+    <loc>https://www.quakeplay.com/game/secret-bff</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/rival-rush</loc>
+    <loc>https://www.quakeplay.com/game/rival-rush</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/cat-fashion-designer</loc>
+    <loc>https://www.quakeplay.com/game/cat-fashion-designer</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/tower-rush</loc>
+    <loc>https://www.quakeplay.com/game/tower-rush</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/backgammon-classic</loc>
+    <loc>https://www.quakeplay.com/game/backgammon-classic</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/hex-puzzle</loc>
+    <loc>https://www.quakeplay.com/game/hex-puzzle</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/pipe-mania</loc>
+    <loc>https://www.quakeplay.com/game/pipe-mania</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/bubble-spirit</loc>
+    <loc>https://www.quakeplay.com/game/bubble-spirit</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/shards</loc>
+    <loc>https://www.quakeplay.com/game/shards</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/mahjong-classic</loc>
+    <loc>https://www.quakeplay.com/game/mahjong-classic</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/kitty-bubbles</loc>
+    <loc>https://www.quakeplay.com/game/kitty-bubbles</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/kids-puzzle-sea</loc>
+    <loc>https://www.quakeplay.com/game/kids-puzzle-sea</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/doctor-teeth</loc>
+    <loc>https://www.quakeplay.com/game/doctor-teeth</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/kiba-kumba-tri-towers-solitaire</loc>
+    <loc>https://www.quakeplay.com/game/kiba-kumba-tri-towers-solitaire</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/kiba-kumba-jigsaw-puzzle</loc>
+    <loc>https://www.quakeplay.com/game/kiba-kumba-jigsaw-puzzle</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/geo-quiz-europe</loc>
+    <loc>https://www.quakeplay.com/game/geo-quiz-europe</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/sea-bubble-shooter</loc>
+    <loc>https://www.quakeplay.com/game/sea-bubble-shooter</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/froyo-bar</loc>
+    <loc>https://www.quakeplay.com/game/froyo-bar</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/chess-classic</loc>
+    <loc>https://www.quakeplay.com/game/chess-classic</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/spider-solitaire-classic</loc>
+    <loc>https://www.quakeplay.com/game/spider-solitaire-classic</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/car-crossing</loc>
+    <loc>https://www.quakeplay.com/game/car-crossing</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/euro-keeper-2016</loc>
+    <loc>https://www.quakeplay.com/game/euro-keeper-2016</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/soccer-girl</loc>
+    <loc>https://www.quakeplay.com/game/soccer-girl</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/grim-symbols</loc>
+    <loc>https://www.quakeplay.com/game/grim-symbols</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/match-3-squared</loc>
+    <loc>https://www.quakeplay.com/game/match-3-squared</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/kids-tangram</loc>
+    <loc>https://www.quakeplay.com/game/kids-tangram</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/sery-runway-dolly</loc>
+    <loc>https://www.quakeplay.com/game/sery-runway-dolly</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/summer-fiesta</loc>
+    <loc>https://www.quakeplay.com/game/summer-fiesta</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/match-the-animal</loc>
+    <loc>https://www.quakeplay.com/game/match-the-animal</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/kids-color-book</loc>
+    <loc>https://www.quakeplay.com/game/kids-color-book</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/soccer-dress-up</loc>
+    <loc>https://www.quakeplay.com/game/soccer-dress-up</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/soccer-bubbles</loc>
+    <loc>https://www.quakeplay.com/game/soccer-bubbles</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/euro-penalty-2016</loc>
+    <loc>https://www.quakeplay.com/game/euro-penalty-2016</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/penalty-shooters-2</loc>
+    <loc>https://www.quakeplay.com/game/penalty-shooters-2</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/circle-rush</loc>
+    <loc>https://www.quakeplay.com/game/circle-rush</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/cat-around-the-world</loc>
+    <loc>https://www.quakeplay.com/game/cat-around-the-world</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/western-solitaire</loc>
+    <loc>https://www.quakeplay.com/game/western-solitaire</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/euro-soccer-sprint</loc>
+    <loc>https://www.quakeplay.com/game/euro-soccer-sprint</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/tris-fashionista-dolly</loc>
+    <loc>https://www.quakeplay.com/game/tris-fashionista-dolly</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/get-10</loc>
+    <loc>https://www.quakeplay.com/game/get-10</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/zop</loc>
+    <loc>https://www.quakeplay.com/game/zop</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/solitaire-master</loc>
+    <loc>https://www.quakeplay.com/game/solitaire-master</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/wedding-lily-2</loc>
+    <loc>https://www.quakeplay.com/game/wedding-lily-2</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/park-your-car</loc>
+    <loc>https://www.quakeplay.com/game/park-your-car</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/bubble-gems</loc>
+    <loc>https://www.quakeplay.com/game/bubble-gems</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/blowman</loc>
+    <loc>https://www.quakeplay.com/game/blowman</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/solitaire-classic-easter</loc>
+    <loc>https://www.quakeplay.com/game/solitaire-classic-easter</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/bubbles-shooter</loc>
+    <loc>https://www.quakeplay.com/game/bubbles-shooter</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/street-pursuit</loc>
+    <loc>https://www.quakeplay.com/game/street-pursuit</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/easter-card-match</loc>
+    <loc>https://www.quakeplay.com/game/easter-card-match</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/prism</loc>
+    <loc>https://www.quakeplay.com/game/prism</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/gin-rummy-classic</loc>
+    <loc>https://www.quakeplay.com/game/gin-rummy-classic</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/little-shop-of-treasures</loc>
+    <loc>https://www.quakeplay.com/game/little-shop-of-treasures</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/stray-knight</loc>
+    <loc>https://www.quakeplay.com/game/stray-knight</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/sudoku-classic</loc>
+    <loc>https://www.quakeplay.com/game/sudoku-classic</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/dots-mania</loc>
+    <loc>https://www.quakeplay.com/game/dots-mania</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/text-twist-2</loc>
+    <loc>https://www.quakeplay.com/game/text-twist-2</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/zoo-pinball</loc>
+    <loc>https://www.quakeplay.com/game/zoo-pinball</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/aliens-attack</loc>
+    <loc>https://www.quakeplay.com/game/aliens-attack</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/outcome</loc>
+    <loc>https://www.quakeplay.com/game/outcome</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/doggy-dive</loc>
+    <loc>https://www.quakeplay.com/game/doggy-dive</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/emily-s-new-beginning</loc>
+    <loc>https://www.quakeplay.com/game/emily-s-new-beginning</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/gold-rush</loc>
+    <loc>https://www.quakeplay.com/game/gold-rush</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/troll-boxing</loc>
+    <loc>https://www.quakeplay.com/game/troll-boxing</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/arcade-golf-neon</loc>
+    <loc>https://www.quakeplay.com/game/arcade-golf-neon</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/kids-puzzle-adventure</loc>
+    <loc>https://www.quakeplay.com/game/kids-puzzle-adventure</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/miner-block</loc>
+    <loc>https://www.quakeplay.com/game/miner-block</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/finders-critters</loc>
+    <loc>https://www.quakeplay.com/game/finders-critters</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/playful-kitty</loc>
+    <loc>https://www.quakeplay.com/game/playful-kitty</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/crazy-freekick</loc>
+    <loc>https://www.quakeplay.com/game/crazy-freekick</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/solitaire-classic</loc>
+    <loc>https://www.quakeplay.com/game/solitaire-classic</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/hold-my-hand-friend</loc>
+    <loc>https://www.quakeplay.com/game/hold-my-hand-friend</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/yeti-sensation</loc>
+    <loc>https://www.quakeplay.com/game/yeti-sensation</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/bubble-hamsters</loc>
+    <loc>https://www.quakeplay.com/game/bubble-hamsters</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/flying-school</loc>
+    <loc>https://www.quakeplay.com/game/flying-school</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/chip-family</loc>
+    <loc>https://www.quakeplay.com/game/chip-family</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/mommy-washing-toys</loc>
+    <loc>https://www.quakeplay.com/game/mommy-washing-toys</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/multisquare</loc>
+    <loc>https://www.quakeplay.com/game/multisquare</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/ancient-mahjong</loc>
+    <loc>https://www.quakeplay.com/game/ancient-mahjong</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/mini-putt-holiday</loc>
+    <loc>https://www.quakeplay.com/game/mini-putt-holiday</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/groovy-ski</loc>
+    <loc>https://www.quakeplay.com/game/groovy-ski</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/streetrace-fury</loc>
+    <loc>https://www.quakeplay.com/game/streetrace-fury</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/greedy-rabbit</loc>
+    <loc>https://www.quakeplay.com/game/greedy-rabbit</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/mahjong-collision</loc>
+    <loc>https://www.quakeplay.com/game/mahjong-collision</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/civilizations-wars-master-edition</loc>
+    <loc>https://www.quakeplay.com/game/civilizations-wars-master-edition</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/coffee-mahjong</loc>
+    <loc>https://www.quakeplay.com/game/coffee-mahjong</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quakeplay.com/game/1212</loc>
+    <loc>https://www.quakeplay.com/game/1212</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

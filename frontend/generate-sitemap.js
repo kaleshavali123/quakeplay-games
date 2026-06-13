@@ -4,10 +4,12 @@ const axios = require("axios");
 const Papa = require("papaparse");
 
 // Matches the CSV source used by the app
-const CSV_URL = "https://docs.google.com/spreadsheets/d/1mZbunkAWxw_l5h8zHGNL6E19kULA32SJ-rCX93AdEQU/export?format=csv";
+const CSV_URL =
+  "https://docs.google.com/spreadsheets/d/1mZbunkAWxw_l5h8zHGNL6E19kULA32SJ-rCX93AdEQU/export?format=csv";
 
-// Base URL for sitemap entries. Can be overridden with SITEMAP_BASE_URL env var.
-const BASE_URL = process.env.SITEMAP_BASE_URL || "https://quakeplay.com";
+// Base URL
+const BASE_URL =
+  process.env.SITEMAP_BASE_URL || "https://www.quakeplay.com";
 
 function safeString(value) {
   return String(value || "").trim();
@@ -27,8 +29,14 @@ function formatDate(d = new Date()) {
 }
 
 async function fetchGamesCsv() {
-  const res = await axios.get(CSV_URL, { responseType: "text" });
-  return Papa.parse(res.data, { header: true, skipEmptyLines: true }).data;
+  const res = await axios.get(CSV_URL, {
+    responseType: "text",
+  });
+
+  return Papa.parse(res.data, {
+    header: true,
+    skipEmptyLines: true,
+  }).data;
 }
 
 function escapeXml(unsafe) {
@@ -36,84 +44,152 @@ function escapeXml(unsafe) {
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
-    .replace(/\"/g, "&quot;")
+    .replace(/"/g, "&quot;")
     .replace(/'/g, "&apos;");
 }
 
 async function buildSitemap() {
   console.log("Fetching game list...");
+
   const rows = await fetchGamesCsv();
 
   const games = rows
-    .filter(r => r.Name && r.Link)
+    .filter((r) => r.Name && r.Link)
     .map((r, index) => {
       const name = safeString(r.Name);
-      const rawSlug = r.Slug && r.Slug.trim() ? r.Slug : name;
-      const slug = slugify(rawSlug || `game-${index}`);
-      return { name, slug };
+      const rawSlug =
+        r.Slug && r.Slug.trim()
+          ? r.Slug
+          : name;
+
+      const slug = slugify(
+        rawSlug || `game-${index}`
+      );
+
+      return {
+        name,
+        slug,
+      };
     });
 
-  // Deduplicate slugs
+  // Remove duplicate slugs
   const seen = new Set();
   const unique = [];
-  for (const g of games) {
-    if (!seen.has(g.slug)) {
-      seen.add(g.slug);
-      unique.push(g);
+
+  for (const game of games) {
+    if (!seen.has(game.slug)) {
+      seen.add(game.slug);
+      unique.push(game);
     }
   }
 
   const urls = [];
 
   // Homepage
-  urls.push({ loc: `${BASE_URL}/`, lastmod: formatDate(), changefreq: "daily", priority: "1.0" });
+  urls.push({
+    loc: `${BASE_URL}/`,
+    lastmod: formatDate(),
+    changefreq: "daily",
+    priority: "1.0",
+  });
 
   // Search page
-  urls.push({ loc: `${BASE_URL}/search`, lastmod: formatDate(), changefreq: "weekly", priority: "0.8" });
+  urls.push({
+    loc: `${BASE_URL}/search`,
+    lastmod: formatDate(),
+    changefreq: "weekly",
+    priority: "0.8",
+  });
 
-  // Game pages
-  unique.forEach(g => {
+  // Category pages
+  const categories = [
+    "Adventure",
+    "Arcade",
+    "Brain",
+    "Cards",
+    "Coloring",
+    "Fantasy",
+    "Girls",
+    "Kids",
+    "Match-3",
+    "Multiplayer",
+    "Puzzle",
+    "Racing",
+    "Simulation",
+    "Sports",
+  ];
+
+  categories.forEach((category) => {
     urls.push({
-      loc: `${BASE_URL}/game/${encodeURIComponent(g.slug)}`,
+      loc: `${BASE_URL}/search?cat=${encodeURIComponent(
+        category
+      )}`,
       lastmod: formatDate(),
       changefreq: "weekly",
-      priority: "0.7"
+      priority: "0.8",
+    });
+  });
+
+  // Game pages
+  unique.forEach((game) => {
+    urls.push({
+      loc: `${BASE_URL}/game/${encodeURIComponent(
+        game.slug
+      )}`,
+      lastmod: formatDate(),
+      changefreq: "weekly",
+      priority: "0.7",
     });
   });
 
   const xml = [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-    ...urls.map(u => {
+    ...urls.map((url) => {
       return [
         "  <url>",
-        `    <loc>${escapeXml(u.loc)}</loc>`,
-        `    <lastmod>${u.lastmod}</lastmod>`,
-        `    <changefreq>${u.changefreq}</changefreq>`,
-        `    <priority>${u.priority}</priority>`,
-        "  </url>"
+        `    <loc>${escapeXml(
+          url.loc
+        )}</loc>`,
+        `    <lastmod>${url.lastmod}</lastmod>`,
+        `    <changefreq>${url.changefreq}</changefreq>`,
+        `    <priority>${url.priority}</priority>`,
+        "  </url>",
       ].join("\n");
     }),
-    "</urlset>"
+    "</urlset>",
   ].join("\n");
 
-  // --- TARGETING FRONTEND/PUBLIC DIRECTLY ---
-  // Since this script runs inside the frontend folder, path.join(__dirname, "public") 
-  // places the file perfectly inside frontend/public/sitemap.xml
-  const outPath = path.join(__dirname, "public", "sitemap.xml");
+  // Write sitemap.xml into public folder
+  const outPath = path.join(
+    __dirname,
+    "public",
+    "sitemap.xml"
+  );
+
   const outDir = path.dirname(outPath);
 
-  // Ensure the target directory exists before trying to write the file
   if (!fs.existsSync(outDir)) {
-    console.log(`Creating missing directory: ${outDir}`);
-    fs.mkdirSync(outDir, { recursive: true });
+    fs.mkdirSync(outDir, {
+      recursive: true,
+    });
   }
 
-  fs.writeFileSync(outPath, xml, "utf8");
-  console.log(`Wrote sitemap with ${urls.length} entries to ${outPath}`);
+  fs.writeFileSync(
+    outPath,
+    xml,
+    "utf8"
+  );
+
+  console.log(
+    `✅ Wrote sitemap with ${urls.length} entries to ${outPath}`
+  );
 }
 
-buildSitemap().catch(err => {
-  console.error("Failed to generate sitemap:", err);
+buildSitemap().catch((err) => {
+  console.error(
+    "❌ Failed to generate sitemap:",
+    err
+  );
   process.exit(1);
 });
