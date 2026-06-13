@@ -12,6 +12,8 @@
     "sitemap": "^9.0.1"
   },
   "scripts": {
+    "prebuild": "node generate-sitemap.js",
+    "build": "react-scripts build",
     "start": "react-scripts start"
   },
   "browserslist": {
