@@ -98,6 +98,16 @@ async function buildSitemap() {
   ].join("\n");
 
   const outPath = path.join(__dirname, "..", "public", "sitemap.xml");
+  const outDir = path.dirname(outPath);
+
+  // --- FIX APPLIED HERE ---
+  // Ensure the target directory exists before trying to write the file
+  if (!fs.existsSync(outDir)) {
+    console.log(`Creating missing directory: ${outDir}`);
+    fs.mkdirSync(outDir, { recursive: true });
+  }
+  // ------------------------
+
   fs.writeFileSync(outPath, xml, "utf8");
   console.log(`Wrote sitemap with ${urls.length} entries to ${outPath}`);
 }
