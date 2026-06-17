@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://quakeplay.com/sitemap.xml
