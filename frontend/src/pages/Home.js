@@ -66,14 +66,14 @@ export default function Home() {
     <div className="home-page">
       <div className="home-hero">
         <div>
-          <h2 className="page-title">
-            🔥 Smart Game Library
-          </h2>
+          <h1 className="page-title">
+            Play Free Online Games Instantly on Quake Play
+          </h1>
 
           <p className="hero-copy">
-            Browse automatic categories and discover
-            the best HTML5 games with premium card
-            animations.
+            Discover hundreds of free online games including action,
+            racing, puzzle, sports, arcade, strategy, and multiplayer
+            games. No downloads required — play directly in your browser.
           </p>
         </div>
       </div>
@@ -82,10 +82,11 @@ export default function Home() {
         {availableCategories.map((item) => (
           <button
             key={item.category}
-            className={`category-pill ${activeCategory === item.category
-              ? "active"
-              : ""
-              }`}
+            className={`category-pill ${
+              activeCategory === item.category
+                ? "active"
+                : ""
+            }`}
             onClick={() =>
               setActiveCategory(item.category)
             }
