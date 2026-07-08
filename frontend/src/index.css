@@ -1020,6 +1020,7 @@ a {
   .hero-overlay {
     max-width: 100%;
     padding: 0;
+    border-radius: 15px;
   }
 
   .hero-game-image {
@@ -1067,18 +1068,21 @@ a {
   }
 }
 
-/*New*/
 /* =========================================
-   PLAY GAME PAGE
+   PLAY GAME PAGE UPDATED
 ========================================= */
 
 .play-game-page {
-  width: 100%;
+  width: 97%;
+  max-width: 1200px;
   height: 83vh;
+  margin: 0 auto;
   background: #000;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
+
 
 .play-navbar {
   height: 70px;
@@ -1098,14 +1102,17 @@ a {
   z-index: 100;
 }
 
+
 .play-navbar h2 {
   margin: 0;
   font-size: 20px;
   text-align: center;
 }
 
+
 .back-play-btn,
 .fullscreen-btn {
+
   border: none;
 
   background: var(--primary);
@@ -1123,29 +1130,64 @@ a {
   transition: 0.25s;
 }
 
+
 .back-play-btn:hover,
 .fullscreen-btn:hover {
+
   transform: scale(1.05);
-  background: #ff4343;
+
+  background:#ff4343;
+
 }
+
+
+/* GAME AREA */
 
 .play-iframe-wrapper {
-  flex: 1;
-  width: 100%;
-  height: calc(100vh - 70px);
+
+  flex:1;
+
+  width:100%;
+
+  height:calc(100vh - 70px);
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
 }
 
+
+/* GAME FRAME */
+
 .play-game-iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-  display: block;
-  background: #000;
+
+  width:100%;
+
+  height:100%;
+
+  border:none;
+
+  display:block;
+
+  background:#000;
+
 }
 
 /* =========================================
    MOBILE RESPONSIVE
 ========================================= */
+@media (max-width: 768px) {
+
+  .play-game-page {
+    width: 100%;
+    height: 85vh;
+    border-radius: 0;
+  }
+}
+
 
 @media (max-width: 768px) {
   .play-navbar {
@@ -1351,6 +1393,24 @@ html {
   padding: 24px;
 }
 
+@media (min-width: 992px) {
+
+  .home-page,
+  .game-page-wrapper,
+  .search-page {
+
+    max-width:1140px;
+
+    margin:0 auto;
+
+    padding-left:24px;
+
+    padding-right:24px;
+
+  }
+
+}
+
 @media (max-width: 768px) {
   .content {
     padding-left: 12px;
@@ -1437,7 +1497,7 @@ html {
 
 @media (max-width: 1024px) {
   .sidebar {
-    width: 190px;
+    width: 120px;
   }
 }
 
@@ -1791,4 +1851,36 @@ html {
   .related-image-wrapper {
     height: 150px;
   }
+}
+
+/* =========================================
+   GAME PLAYER WIDTH FIX
+========================================= */
+
+@media (min-width:1024px){
+
+  .play-game-page{
+
+    max-width:none;
+
+    padding:0;
+
+  }
+
+
+  .play-iframe-wrapper{
+
+    padding:0;
+
+  }
+
+
+  .play-game-iframe{
+
+    width:100%;
+
+    height:100%;
+
+  }
+
 }
