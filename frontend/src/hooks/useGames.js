@@ -1,8 +1,5 @@
 import { useState, useEffect } from "react";
-import Papa from "papaparse";
 import { buildGameRecord, CATEGORY_META } from "../utils/gameUtils";
-
-const CSV_URL = "https://docs.google.com/spreadsheets/d/1mZbunkAWxw_l5h8zHGNL6E19kULA32SJ-rCX93AdEQU/export?format=csv";
 
 let cachedGames = null;
 
@@ -13,24 +10,27 @@ export function useGames() {
   useEffect(() => {
     if (cachedGames) return;
 
-    Papa.parse(CSV_URL, {
-      download: true,
-      header: true,
-      skipEmptyLines: true,
-      complete: (results) => {
-        const validGames = results.data
-          .filter(g => g.Name && g.Link)
-          .map((g, index) => buildGameRecord(g, index));
+    fetch("/games.json")
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error(`games.json request failed: ${res.status}`);
+        }
+        return res.json();
+      })
+      .then((rows) => {
+        // rows are already filtered to have Name + Link by
+        // generate-games-json.js, but buildGameRecord still runs here so
+        // categories/display fields stay in sync with gameUtils.js.
+        const validGames = rows.map((g, index) => buildGameRecord(g, index));
 
         cachedGames = validGames;
         setGames(validGames);
         setLoading(false);
-      },
-      error: (err) => {
-        console.error("Error fetching games CSV:", err);
+      })
+      .catch((err) => {
+        console.error("Error loading games.json:", err);
         setLoading(false);
-      }
-    });
+      });
   }, []);
 
   return { games, loading, CATEGORY_META };
