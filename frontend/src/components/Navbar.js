@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate, Link, useSearchParams } from "react-router-dom";
-import logoImg from "../assets/quickplay-logo.png";
+import logoImg from "../assets/quakeplay-logo.png";
 
 export default function Navbar() {
   const [searchParams] = useSearchParams();
