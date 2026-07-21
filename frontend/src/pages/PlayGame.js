@@ -10,15 +10,7 @@ export default function PlayGame() {
 
   const { games, loading } = useGames();
 
-  if (loading) {
-    return (
-      <h2 className="loading-text">
-        Loading Game...
-      </h2>
-    );
-  }
-
-  const game = games.find(
+  const game = games?.find(
     (g) =>
       g.slug === slug ||
       g.Name.toLowerCase().replace(
@@ -45,6 +37,14 @@ export default function PlayGame() {
 
     return () => window.clearTimeout(timer);
   }, [game]);
+
+  if (loading) {
+    return (
+      <h2 className="loading-text">
+        Loading Game...
+      </h2>
+    );
+  }
 
   if (!game) {
     return (
@@ -78,11 +78,11 @@ export default function PlayGame() {
           className="fullscreen-btn"
           onClick={() => {
             const iframe =
-              document.querySelector(
+              gameSectionRef.current?.querySelector(
                 ".play-game-iframe"
               );
 
-            if (iframe.requestFullscreen) {
+            if (iframe?.requestFullscreen) {
               iframe.requestFullscreen();
             }
           }}
