@@ -35,7 +35,7 @@ export default function Navbar() {
       <Link to="/" className="logo-link" aria-label="Home">
         <img
           src={logoImg}
-          alt="QuickPlay Logo"
+          alt="QuakePlay Logo"
           className="logo-img"
           width="260"
           height="50"
