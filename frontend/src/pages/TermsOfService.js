@@ -68,7 +68,7 @@ export default function TermsOfService() {
       <h2>15. Contact Information</h2>
       <p>For questions or concerns about these Terms of Service, please contact us at:</p>
       <p>Quake Play<br />
-      Email: <a href="mailto:support@quakeplay.com">support@quakeplay.com</a><br />
+      Email: <a href="mailto:shaikvali0922@gmail.com">shaikvali0922@gmail.com</a><br />
       Website: <a href="https://www.quakeplay.com">https://www.quakeplay.com</a></p>
 
       <nav className="legal-links">

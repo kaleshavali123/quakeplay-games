@@ -13,27 +13,28 @@ const SUBJECT_OPTIONS = [
 
 const MAX_MESSAGE_LENGTH = 5000;
 
+// Letters, spaces, hyphens, and apostrophes only (covers names like "Mary-Jane" or "O'Brien")
+const NAME_PATTERN = /^[A-Za-z\s'-]*$/;
+
 const isValidEmail = (email) => {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 };
 
-const isValidPhone = (phone) => {
-  return phone === "" || /^\+?[0-9]{10,}$/.test(phone);
+const isValidName = (name) => {
+  return NAME_PATTERN.test(name);
 };
 
 export default function ContactUs() {
   const [formState, setFormState] = useState({
     name: "",
     email: "",
-    subject: "",
-    phone: "",
     message: "",
     consent: false,
-    website: ""
   });
   const [status, setStatus] = useState(null);
   const [error, setError] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [nameWarning, setNameWarning] = useState("");
 
   useEffect(() => {
     document.title = "Contact Us - Quake Play";
@@ -51,6 +52,16 @@ export default function ContactUs() {
 
   const handleChange = (event) => {
     const { name, value, type, checked } = event.target;
+
+    if (name === "name") {
+      // Block any character that isn't a letter, space, hyphen, or apostrophe as the user types
+      if (!isValidName(value)) {
+        setNameWarning("Please enter only text");
+        return;
+      }
+      setNameWarning("");
+    }
+
     setFormState((current) => ({
       ...current,
       [name]: type === "checkbox" ? checked : value
@@ -58,26 +69,20 @@ export default function ContactUs() {
   };
 
   const validateForm = () => {
-    if (formState.website !== "") {
-      return "Spam detected. Please remove hidden fields.";
-    }
     if (formState.name.trim().length < 2) {
       return "Please enter your full name.";
+    }
+    if (!isValidName(formState.name)) {
+      return "Name can only contain letters, spaces, hyphens, and apostrophes.";
     }
     if (!isValidEmail(formState.email.trim())) {
       return "Please enter a valid email address.";
     }
-    if (!formState.subject) {
-      return "Please select a subject.";
-    }
-    if (formState.message.trim().length < 10) {
-      return "Please enter a message with at least 10 characters.";
+    if (formState.message.trim().length < 3) {
+      return "Please enter a message with at least 3 characters.";
     }
     if (formState.message.length > MAX_MESSAGE_LENGTH) {
       return `Please keep your message under ${MAX_MESSAGE_LENGTH} characters.`;
-    }
-    if (!isValidPhone(formState.phone.trim())) {
-      return "Please enter a valid phone number with at least 10 digits.";
     }
     if (!formState.consent) {
       return "You must agree to the privacy policy before submitting.";
@@ -100,7 +105,7 @@ export default function ContactUs() {
 
     try {
       const formData = new FormData(event.target);
-      const response = await fetch("https://formspree.io/f/YOUR_FORM_ID", {
+      const response = await fetch("https://formspree.io/f/xkoddwzd", {
         method: "POST",
         body: formData,
         headers: {
@@ -116,11 +121,8 @@ export default function ContactUs() {
       setFormState({
         name: "",
         email: "",
-        subject: "",
-        phone: "",
         message: "",
         consent: false,
-        website: ""
       });
     } catch (submitError) {
       setStatus("error");
@@ -157,9 +159,7 @@ export default function ContactUs() {
         </div>
         <div className="contact-quick-help">
           <p><strong>Email</strong></p>
-          <a href="mailto:support@quakeplay.com">support@quakeplay.com</a>
-          <p><strong>Business hours</strong></p>
-          <p>Mon–Fri, 9am–6pm UTC</p>
+          <a href="mailto:shaikvali0922@gmail.com">shaikvali0922@gmail.com</a>
         </div>
       </div>
 
@@ -168,12 +168,6 @@ export default function ContactUs() {
           <h2>Send us a message</h2>
           <p className="form-subtitle">All fields marked with * are required.</p>
 
-          {statusMessage && (
-            <div className={`status-banner ${statusMessage.type}`} role="status">
-              {statusMessage.text}
-            </div>
-          )}
-
           {error && status !== "success" && (
             <div className="status-banner error" role="alert">
               {error}
@@ -181,9 +175,7 @@ export default function ContactUs() {
           )}
 
           <form className="contact-form" onSubmit={handleSubmit}>
-            <input type="hidden" name="website" value={formState.website} />
             <input type="hidden" name="_subject" value="Quake Play Contact Form Submission" />
-            <input type="hidden" name="_captcha" value="false" />
 
             <div className="form-row">
               <label htmlFor="name">Full Name *</label>
@@ -197,8 +189,16 @@ export default function ContactUs() {
                 required
                 minLength={2}
                 maxLength={100}
+                pattern="[A-Za-z\s'-]+"
+                title="Name can only contain letters, spaces, hyphens, and apostrophes."
+                inputMode="text"
                 className="form-input"
               />
+              {nameWarning && (
+                <div className="field-warning" role="alert">
+                  {nameWarning}
+                </div>
+              )}
             </div>
 
             <div className="form-row">
@@ -224,7 +224,7 @@ export default function ContactUs() {
                 onChange={handleChange}
                 placeholder="Tell us how we can help"
                 required
-                minLength={10}
+                minLength={3}
                 maxLength={MAX_MESSAGE_LENGTH}
                 className="form-textarea"
               />

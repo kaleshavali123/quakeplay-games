@@ -62,7 +62,7 @@ export default function AboutUs() {
       <h2>7. Get in Touch</h2>
       <p>Have questions, suggestions, or feedback? We'd love to hear from you! Reach out to our team anytime:</p>
       <ul>
-        <li><strong>Email:</strong> <a href="mailto:support@quakeplay.com">support@quakeplay.com</a></li>
+        <li><strong>Email:</strong> <a href="mailto:shaikvali0922@gmail.com">shaikvali0922@gmail.com</a></li>
         <li><strong>Website:</strong> <a href="https://www.quakeplay.com">https://www.quakeplay.com</a></li>
       </ul>
 

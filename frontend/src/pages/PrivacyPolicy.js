@@ -47,7 +47,7 @@ export default function PrivacyPolicy() {
       </ul>
 
       <h2>4. Children's Privacy (COPPA Compliance)</h2>
-      <p>Quake Play does not knowingly collect personal information from children under 13 years of age. If we become aware that we have collected information from a child under 13, we will delete such information immediately. Our games are intended for users aged 13 and above. Parents or guardians who believe their child has provided information to us should contact us immediately at <a href="mailto:support@quakeplay.com">support@quakeplay.com</a>.</p>
+      <p>Quake Play does not knowingly collect personal information from children under 13 years of age. If we become aware that we have collected information from a child under 13, we will delete such information immediately. Our games are intended for users aged 13 and above. Parents or guardians who believe their child has provided information to us should contact us immediately at <a href="mailto:shaikvali0922@gmail.com">shaikvali0922@gmail.com</a>.</p>
 
       <h2>5. Data Sharing and Disclosure</h2>
       <p>We do not sell your personal information. However, we may share information with:</p>
@@ -68,7 +68,7 @@ export default function PrivacyPolicy() {
         <li>Request deletion of your data</li>
         <li>Opt-out of personalized advertising</li>
       </ul>
-      <p>To exercise any of these rights, please contact us at <a href="mailto:support@quakeplay.com">support@quakeplay.com</a>.</p>
+      <p>To exercise any of these rights, please contact us at <a href="mailto:shaikvali0922@gmail.com">shaikvali0922@gmail.com</a>.</p>
 
       <h2>8. Third-Party Links</h2>
       <p>Our Site may contain links to third-party websites. We are not responsible for their privacy practices. We encourage you to review their privacy policies before providing any information.</p>
@@ -79,7 +79,7 @@ export default function PrivacyPolicy() {
       <h2>10. Contact Us</h2>
       <p>If you have questions about this Privacy Policy or our privacy practices, please contact us at:</p>
       <p>Quake Play<br />
-      Email: <a href="mailto:support@quakeplay.com">support@quakeplay.com</a><br />
+      Email: <a href="mailto:shaikvali0922@gmail.com">shaikvali0922@gmail.com</a><br />
       Website: <a href="https://www.quakeplay.com">https://www.quakeplay.com</a></p>
 
       <nav className="legal-links">
