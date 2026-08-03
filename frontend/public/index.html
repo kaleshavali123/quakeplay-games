@@ -1,85 +1,291 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
+  <!-- ============================================================
+       CHARSET & VIEWPORT — must be first for correct parsing
+       ============================================================ -->
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
-  <!-- Primary SEO -->
-  <title>Quake Play - Play Free Online Games Instantly</title>
+  <!-- ============================================================
+       PRIMARY SEO — Title & Description
+       Title: 50-60 chars, primary keyword near front, brand at end.
+       Description: 150-160 chars, includes a value prop + CTA verb.
+       These are STATIC DEFAULTS for the homepage only. Every other
+       route (game, category, search) MUST override these via
+       React Helmet — see SEOHead.jsx. Duplicate/templated meta
+       across routes is one of the most common reasons gaming sites
+       fail to rank past the homepage.
+       ============================================================ -->
+  <title>Quake Play: Free Online Games – Play 400+ Browser Games Now</title>
 
   <meta name="description"
-    content="Play free online games instantly on Quake Play. Enjoy action, racing, puzzle, sports, arcade, strategy, and multiplayer games directly in your browser." />
+    content="Play 400+ free online games instantly, no downloads required. Action, racing, puzzle, sports, arcade & multiplayer games — all playable free in your browser on Quake Play." />
 
+  <!-- Keywords meta is not a ranking factor for Google (deprecated since
+       2009) and is ignored by Bing for ranking too. Kept minimal/optional
+       only because some third-party aggregators & internal search tools
+       still parse it. Do not spend time expanding this list. -->
   <meta name="keywords"
-    content="free online games, browser games, arcade games, racing games, puzzle games, action games, sports games, online gaming" />
+    content="free online games, browser games, play games online, HTML5 games, no download games" />
 
-  <meta name="robots" content="index, follow" />
   <meta name="author" content="Quake Play" />
 
-  <!-- Canonical URL -->
+  <!-- ============================================================
+       ROBOTS — explicit directives instead of relying on defaults.
+       max-image-preview:large is required to be eligible for large
+       thumbnail image results and Google Discover.
+       ============================================================ -->
+  <meta name="robots"
+    content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="googlebot"
+    content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+  <!-- ============================================================
+       CANONICAL — homepage default. On every other route this MUST
+       be dynamically set to the exact self-referencing URL
+       (protocol + host + path, NO query params, NO trailing slash
+       inconsistency) to avoid duplicate-content dilution across
+       /game/foo, /game/foo/, ?ref=..., etc.
+       ============================================================ -->
   <link rel="canonical" href="https://quakeplay.com/" />
 
-  <!-- Open Graph -->
+  <!-- ============================================================
+       LANGUAGE / HREFLANG
+       Declare the default language explicitly. If/when you launch
+       localized versions (es, pt, fr, etc.), add one hreflang line
+       per locale PLUS an x-default. Until then, a single x-default
+       pointing at the canonical prevents Search Console "missing
+       hreflang return tag" warnings some crawlers still flag.
+       ============================================================ -->
+  <link rel="alternate" hreflang="en" href="https://quakeplay.com/" />
+  <link rel="alternate" hreflang="x-default" href="https://quakeplay.com/" />
+
+  <!-- ============================================================
+       OPEN GRAPH — Facebook, LinkedIn, Discord, WhatsApp, Slack,
+       Pinterest all read OG tags as their base fallback.
+       og:image should be 1200x630 (1.91:1), <5MB, absolute URL.
+       ============================================================ -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Quake Play - Play Free Online Games Instantly" />
-  <meta property="og:description" content="Play hundreds of free online games directly in your browser." />
+  <meta property="og:title" content="Quake Play – Play 400+ Free Online Games Instantly" />
+  <meta property="og:description"
+    content="No downloads, no signup. Play action, racing, puzzle, sports, arcade & multiplayer games free in your browser." />
   <meta property="og:url" content="https://quakeplay.com/" />
   <meta property="og:site_name" content="Quake Play" />
   <meta property="og:image" content="https://quakeplay.com/og-image.jpg" />
+  <meta property="og:image:secure_url" content="https://quakeplay.com/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Quake Play — free online browser games" />
+  <meta property="og:locale" content="en_US" />
 
-  <!-- Twitter -->
+  <!-- Facebook App/Page IDs (fill in if you run FB ads or a FB page —
+       enables Insights & better moderation of shares). Remove the
+       comment and populate once you have real IDs; a placeholder
+       fb:app_id can trigger console warnings. -->
+  <!-- <meta property="fb:app_id" content="YOUR_FB_APP_ID" /> -->
+
+  <!-- ============================================================
+       TWITTER / X CARD
+       ============================================================ -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Quake Play - Play Free Online Games Instantly" />
-  <meta name="twitter:description" content="Play free online games directly in your browser." />
+  <meta name="twitter:title" content="Quake Play – Play 400+ Free Online Games Instantly" />
+  <meta name="twitter:description"
+    content="No downloads, no signup. Play action, racing, puzzle, sports, arcade & multiplayer games free in your browser." />
   <meta name="twitter:image" content="https://quakeplay.com/og-image.jpg" />
+  <meta name="twitter:image:alt" content="Quake Play — free online browser games" />
+  <!-- <meta name="twitter:site" content="@QuakePlay" /> -->
+  <!-- <meta name="twitter:creator" content="@QuakePlay" /> -->
 
-  <meta name="p:domain_verify" content="43867d71fedd45f56affd15d72c1c475" />
+  <!-- ============================================================
+       PINTEREST RICH PINS
+       Rich Pins pull from Open Graph automatically once your domain
+       is validated at Pinterest Business > Rich Pins validator —
+       no extra meta tags required beyond correct OG data above.
+       Add this only if you claim the website in Pinterest:
+       ============================================================ -->
+  <!-- <meta name="p:domain_verify" content="YOUR_PINTEREST_VERIFICATION_CODE" /> -->
 
-  <!-- Performance -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap"
-    rel="stylesheet">
-
-  <!-- Favicons -->
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-  <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png" />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png" />
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-
+  <!-- ============================================================
+       MOBILE / PWA OPTIMIZATION
+       ============================================================ -->
   <meta name="theme-color" content="#ffffff" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Quake Play" />
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="manifest" href="/manifest.json" />
 
-  <!-- Structured Data -->
+  <!-- ============================================================
+       GEO TAGS
+       Useful only if you have a physical/registered business address
+       or want to signal a primary market for local/regional intent.
+       For a global gaming site these carry little SEO weight — Google
+       infers targeting mainly from ccTLD, hreflang, and GSC's
+       International Targeting settings, not these tags. Include only
+       if accurate; a fake geo tag can look like spam.
+       ============================================================ -->
+  <!-- <meta name="geo.region" content="US" /> -->
+  <!-- <meta name="geo.placename" content="United States" /> -->
+
+  <!-- ============================================================
+       SECURITY HEADERS
+       True security headers (CSP, X-Frame-Options, HSTS,
+       X-Content-Type-Options, Referrer-Policy, Permissions-Policy)
+       CANNOT be reliably set via <meta> tags — browsers ignore most
+       of them in HTML for security reasons. Set these at the
+       server/CDN/edge level (e.g., Vercel/Netlify headers config,
+       Cloudflare, Nginx). See "Security Headers" in the strategy
+       guide for exact recommended values. The two that DO work via
+       meta are below:
+       ============================================================ -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+  <!-- ============================================================
+       RESOURCE HINTS — DNS-PREFETCH / PRECONNECT / PRELOAD
+       Order matters: preconnect for critical cross-origin resources
+       used on THIS page (fonts, ad network), dns-prefetch as a
+       cheaper fallback for things used lower down / on some pages.
+       Do not preconnect to more than ~4-6 origins — it dilutes the
+       browser's connection budget and can hurt LCP instead of
+       helping it.
+       ============================================================ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin />
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+  <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+
+  <!-- ============================================================
+       FONT OPTIMIZATION
+       - Use font-display: swap (Google Fonts URL below already
+         defaults to swap for CSS2 API) to avoid invisible-text FOIT,
+         which hurts CLS/LCP.
+       - Preload only the ONE weight actually used above-the-fold
+         (usually the heading font) as a woff2 file for fastest LCP.
+         Replace the href below with your actual hosted/self-served
+         woff2 path once you self-host fonts (recommended — see
+         Performance section of the strategy guide for why
+         self-hosting beats the Google Fonts CDN for Core Web Vitals
+         in 2026).
+       ============================================================ -->
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap"
+    rel="stylesheet" />
+  <!-- Example once self-hosted:
+  <link rel="preload" as="font" type="font/woff2"
+        href="/fonts/nunito-v700-latin.woff2" crossorigin> -->
+
+  <!-- ============================================================
+       FAVICONS
+       ============================================================ -->
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- ============================================================
+       STRUCTURED DATA (JSON-LD) — Homepage bundle:
+       WebSite + SearchAction, Organization, CollectionPage.
+       Per-page schemas (VideoGame, BreadcrumbList, WebPage for game
+       & category pages) are generated dynamically — see
+       SEOHead.jsx and schemas.js in the deliverables.
+       ============================================================ -->
   <script type="application/ld+json">
   {
-    "@context":"https://schema.org",
-    "@type":"WebSite",
-    "name":"Quake Play",
-    "url":"https://quakeplay.com",
-    "potentialAction":{
-      "@type":"SearchAction",
-      "target":"https://quakeplay.com/search?q={search_term_string}",
-      "query-input":"required name=search_term_string"
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://quakeplay.com/#website",
+    "name": "Quake Play",
+    "url": "https://quakeplay.com/",
+    "description": "Play 400+ free online games instantly in your browser — action, racing, puzzle, sports, arcade and multiplayer games.",
+    "publisher": { "@id": "https://quakeplay.com/#organization" },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://quakeplay.com/search?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
     }
   }
   </script>
 
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://quakeplay.com/#organization",
+    "name": "Quake Play",
+    "url": "https://quakeplay.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://quakeplay.com/logo.png",
+      "width": 512,
+      "height": 512
+    },
+    "sameAs": [
+      "https://www.facebook.com/quakeplay",
+      "https://twitter.com/quakeplay",
+      "https://www.instagram.com/quakeplay",
+      "https://www.youtube.com/@quakeplay"
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": "https://quakeplay.com/#webpage",
+    "url": "https://quakeplay.com/",
+    "name": "Quake Play - Free Online Games",
+    "isPartOf": { "@id": "https://quakeplay.com/#website" },
+    "about": { "@id": "https://quakeplay.com/#organization" },
+    "description": "Browse and play 400+ free online games across action, racing, puzzle, sports, arcade and multiplayer categories."
+  }
+  </script>
+
+  <!-- ============================================================
+       THIRD-PARTY SCRIPTS
+       Loaded async so they never block first paint / LCP. Consider
+       moving AdSense to load only after first interaction or via a
+       consent-gated loader if you serve EU/UK traffic (GDPR/ePrivacy
+       requires consent BEFORE ad scripts fire for those users) — see
+       Technical SEO / Trust section of the strategy guide.
+       ============================================================ -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1137594273575972"
     crossorigin="anonymous"></script>
 
 </head>
 
 <body>
+  <!-- ============================================================
+       NOSCRIPT FALLBACK
+       Googlebot executes JS, but many secondary crawlers (some AI
+       assistants, link-unfurlers, accessibility tools) do not. Give
+       them real crawlable content, not just a "enable JS" message,
+       and include internal links so at least the top categories are
+       discoverable without JS execution.
+       ============================================================ -->
   <noscript>
     <h1>Quake Play - Free Online Games</h1>
     <p>
-      Play free online games including action, racing, puzzle, sports,
-      arcade, and adventure games. Please enable JavaScript to enjoy
-      the full Quake Play experience.
+      Quake Play is a free browser gaming site with over 400 HTML5 games
+      you can play instantly with no download or signup — including
+      action, racing, puzzle, sports, arcade, strategy and multiplayer
+      games. Enable JavaScript to play.
     </p>
+    <ul>
+      <li><a href="/category/action">Action Games</a></li>
+      <li><a href="/category/racing">Racing Games</a></li>
+      <li><a href="/category/puzzle">Puzzle Games</a></li>
+      <li><a href="/category/sports">Sports Games</a></li>
+      <li><a href="/category/arcade">Arcade Games</a></li>
+      <li><a href="/category/multiplayer">Multiplayer Games</a></li>
+    </ul>
   </noscript>
 
   <div id="root"></div>
