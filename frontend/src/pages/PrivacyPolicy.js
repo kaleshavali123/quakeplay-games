@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
   return (
     <main className="legal-page">
       <h1>Privacy Policy</h1>
-      <p className="meta">Effective Date: January 2024 | Last Updated: January 2024</p>
+      <p className="meta">Effective Date: August 2026 | Last Updated: August 2026</p>
 
       <h2>1. Introduction</h2>
       <p>Welcome to Quake Play ("we," "us," "our," or "Company"). We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website quakeplay.com (the "Site") and play our online games.</p>
@@ -86,7 +86,7 @@ export default function PrivacyPolicy() {
         <a href="/terms-of-service">Terms of Service</a> • <a href="/about-us">About Us</a>
       </nav>
 
-      <footer className="legal-footer">Last Updated: January 2024</footer>
+      <footer className="legal-footer">Last Updated: August 2026</footer>
     </main>
   );
 }

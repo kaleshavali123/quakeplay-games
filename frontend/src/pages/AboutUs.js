@@ -72,7 +72,7 @@ export default function AboutUs() {
         <a href="/privacy-policy">Privacy Policy</a> • <a href="/terms-of-service">Terms of Service</a>
       </nav>
 
-      <footer className="legal-footer">© 2024 Quake Play. Last Updated: July 11, 2026</footer>
+      <footer className="legal-footer">© 2026 Quake Play. Last Updated: August 5, 2026</footer>
     </main>
   );
 }

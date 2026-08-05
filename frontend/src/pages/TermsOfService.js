@@ -12,7 +12,7 @@ export default function TermsOfService() {
   return (
     <main className="legal-page">
       <h1>Terms of Service</h1>
-      <p className="meta">Effective Date: January 2024 | Last Updated: January 2024</p>
+      <p className="meta">Effective Date: August 2026 | Last Updated: August 2026</p>
 
       <h2>1. Acceptance of Terms</h2>
       <p>By accessing and using Quake Play (<a href="https://www.quakeplay.com">https://www.quakeplay.com</a>) (the "Site" or "Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use our Service. We reserve the right to modify these Terms at any time, and your continued use of the Site constitutes acceptance of any changes.</p>
@@ -75,7 +75,7 @@ export default function TermsOfService() {
         <a href="/privacy-policy">Privacy Policy</a> • <a href="/about-us">About Us</a>
       </nav>
 
-      <footer className="legal-footer">Last Updated: January 2024</footer>
+      <footer className="legal-footer">Last Updated: August 2026</footer>
     </main>
   );
 }
