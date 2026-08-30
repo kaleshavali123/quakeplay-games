@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ea81ffff.css",
+    "main.js": "/static/js/main.afc543f4.js",
+    "static/media/quakeplay-logo.png": "/static/media/quakeplay-logo.69109c753cdca6a2870c.png",
+    "index.html": "/index.html",
+    "main.ea81ffff.css.map": "/static/css/main.ea81ffff.css.map",
+    "main.afc543f4.js.map": "/static/js/main.afc543f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea81ffff.css",
+    "static/js/main.afc543f4.js"
+  ]
+}
