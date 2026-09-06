@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import { useParams, useNavigate, Link, useLocation } from "react-router-dom";
 import { useGames } from "../hooks/useGames";
 import GameCard from "../components/GameCard";
@@ -34,7 +34,9 @@ export default function GamePage() {
   const { games, loading } = useGames();
   const location = useLocation();
 
-  // Find current game cleanly
+  const gameSectionRef = useRef(null);
+  const hasScrolledRef = useRef(false);
+
   const game = useMemo(() => {
     if (!games) return null;
     return games.find(
@@ -45,22 +47,20 @@ export default function GamePage() {
     );
   }, [games, id]);
 
-  // Performance Cache: Filter Related Games Once
   const relatedList = useMemo(() => {
     if (!game || !games) return [];
     return games.filter((other) => other.category === game.category && other.slug !== game.slug);
   }, [games, game]);
 
-  // SEO + META TAGS EFFECT
+  // SEO + META TAGS EFFECT (unchanged)
   useEffect(() => {
     if (!game) return;
-    
+
     const pageTitle = `Play ${game.Name} Online for Free | Quake Play`;
     const pageDescription = `Play ${game.Name} online for free on Quake Play. ${game.description || ""}`;
 
     document.title = pageTitle;
 
-    // Core SEO tags
     updateMetaTag("description", pageDescription);
     updateMetaTag("og:title", pageTitle, true);
     updateMetaTag("og:description", pageDescription, true);
@@ -68,16 +68,13 @@ export default function GamePage() {
     updateMetaTag("og:image", game.Icon, true);
     updateMetaTag("og:url", `https://quakeplay.com/game/${game.slug}`, true);
 
-    // Twitter Tags
     updateMetaTag("twitter:card", "summary_large_image");
     updateMetaTag("twitter:title", pageTitle);
     updateMetaTag("twitter:description", pageDescription);
     updateMetaTag("twitter:image", game.Icon);
 
-    // Canonical Link
     updateCanonicalUrl(`https://quakeplay.com/game/${game.slug}`);
 
-    // Manage Schema injection
     const oldSchema = document.getElementById("game-schema");
     if (oldSchema) oldSchema.remove();
 
@@ -92,10 +89,7 @@ export default function GamePage() {
       image: game.Icon,
       genre: game.category,
       url: `https://quakeplay.com/game/${game.slug}`,
-      publisher: {
-        "@type": "Organization",
-        name: "Quake Play",
-      },
+      publisher: { "@type": "Organization", name: "Quake Play" },
     });
     document.head.appendChild(schema);
 
@@ -105,18 +99,27 @@ export default function GamePage() {
     };
   }, [game]);
 
-  // SCROLL BEHAVIOR
+  // SCROLL BEHAVIOR — auto-scroll to iframe on mobile, same as old PlayGame
   useEffect(() => {
-    if (location.hash === "#hero-overlay" && game) {
-      setTimeout(() => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      }, 150);
+    if (!game) return;
+    hasScrolledRef.current = false;
+
+    if (typeof window === "undefined" || window.innerWidth > 768) {
+      if (!location.hash) window.scrollTo(0, 0);
       return;
     }
-    if (!location.hash && game) {
-      window.scrollTo(0, 0);
-    }
-  }, [location.hash, game]);
+
+    const scrollToGameSection = () => {
+      if (hasScrolledRef.current || !gameSectionRef.current) return;
+      gameSectionRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
+      hasScrolledRef.current = true;
+    };
+
+    const timer = window.setTimeout(scrollToGameSection, 150);
+    requestAnimationFrame(scrollToGameSection);
+
+    return () => window.clearTimeout(timer);
+  }, [game, location.hash]);
 
   if (loading) return <div className="loading-text">Loading Game...</div>;
 
@@ -135,25 +138,34 @@ export default function GamePage() {
 
   return (
     <div className="game-page-wrapper">
-      {/* HERO SECTION */}
-      <div
-        className="game-hero"
-        style={{
-          backgroundImage: `linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.55)), url(${game.Icon})`,
-        }}
-      >
+      {/* PLAY SECTION (replaces old HERO SECTION) */}
+      <div className="play-game-page" ref={gameSectionRef}>
+        <div className="play-navbar">
+          <button className="back-play-btn" onClick={() => nav(-1)}>
+            ← Back
+          </button>
 
-        <div id="hero-overlay" className="hero-overlay">
-          <img
-            src={game.Icon}
-            alt={`${game.Name} Online Game`}
-            className="hero-game-image"
-            loading="eager" 
+          <h2>{game.Name}</h2>
+
+          <button
+            className="fullscreen-btn"
+            onClick={() => {
+              const iframe = gameSectionRef.current?.querySelector(".play-game-iframe");
+              if (iframe?.requestFullscreen) iframe.requestFullscreen();
+            }}
+          >
+            ⛶ Fullscreen
+          </button>
+        </div>
+
+        <div className="play-iframe-wrapper">
+          <iframe
+            src={game.Link}
+            title={game.Name}
+            allowFullScreen
+            loading="eager"
+            className="play-game-iframe"
           />
-          <h1 className="hero-game-title">Play {game.Name} Online for Free</h1>
-          <Link to={`/play/${game.slug}`} className="hero-play-btn">
-            ▶ Play
-          </Link>
         </div>
       </div>
 
@@ -165,7 +177,7 @@ export default function GamePage() {
 
           <h3>Game Overview</h3>
           <p>
-            {game.Name} is a popular {game.category} game available on Quake Play. 
+            {game.Name} is a popular {game.category} game available on Quake Play.
             Enjoy instant gameplay directly in your browser without downloading or installing anything.
           </p>
 
@@ -189,16 +201,11 @@ export default function GamePage() {
           <div>
             <span
               className="category-label"
-              style={{
-                background: `${categoryMeta.color}22`,
-                color: categoryMeta.color,
-              }}
+              style={{ background: `${categoryMeta.color}22`, color: categoryMeta.color }}
             >
               {categoryMeta.icon} {game.category} Games
             </span>
-            <span className="category-count">
-              {relatedList.length} games
-            </span>
+            <span className="category-count">{relatedList.length} games</span>
           </div>
         </div>
 
@@ -209,7 +216,7 @@ export default function GamePage() {
             <GameCard
               key={related._id}
               game={related}
-              to={`/game/${related.slug}#hero-overlay`}
+              to={`/game/${related.slug}`}
             />
           ))}
         </div>
