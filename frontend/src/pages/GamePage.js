@@ -188,9 +188,6 @@ export default function GamePage() {
             <Link to="/search" className="btn-primary">
               Browse More Games
             </Link>
-            <button className="btn-back" onClick={() => nav(-1)}>
-              Go Back
-            </button>
           </div>
         </div>
       </section>
