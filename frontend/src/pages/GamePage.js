@@ -49,7 +49,7 @@ export default function GamePage() {
 
   const relatedList = useMemo(() => {
     if (!game || !games) return [];
-    return games.filter((other) => other.category === game.category && other.slug !== game.slug);
+    return games.filter((other) => other.category === game.category && other.slug !== game.slug || other._id !== game._id);
   }, [games, game]);
 
   // SEO + META TAGS EFFECT (unchanged)
@@ -140,7 +140,7 @@ export default function GamePage() {
     if (location.key !== "default") {
       nav(-1); // there is in-app history, so go back
     } else {
-      nav("/", { replace: true }); // opened directly, so go home
+      nav("/search", { replace: true }); // opened directly, so go Search page
     }
   };
 
