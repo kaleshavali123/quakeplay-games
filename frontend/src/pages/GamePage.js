@@ -136,13 +136,21 @@ export default function GamePage() {
 
   const categoryMeta = CATEGORY_META[game.category] || CATEGORY_META.Other;
 
+  const handleBack = () => {
+    if (location.key !== "default") {
+      nav(-1); // there is in-app history, so go back
+    } else {
+      nav("/", { replace: true }); // opened directly, so go home
+    }
+  };
+
   return (
     <div className="game-page-wrapper">
       {/* PLAY SECTION (replaces old HERO SECTION) */}
       <div className="play-game-page" ref={gameSectionRef}>
         <div className="play-navbar">
-          <button className="back-play-btn" onClick={() => nav(-1)}>
-            ← Back
+          <button type="button" className="back-play-btn" onClick={handleBack}>
+            <span aria-hidden="true">←</span> Back
           </button>
 
           <h2>{game.Name}</h2>
