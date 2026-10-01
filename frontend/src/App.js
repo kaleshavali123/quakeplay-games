@@ -20,7 +20,7 @@ export default function App() {
         <div className="content fade">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/:id" element={<GamePage />} />
+            <Route path="game/:id" element={<GamePage />} />
             <Route path="/search" element={<SearchPage />} />
 
             {/* Legal pages */}
