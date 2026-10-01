@@ -137,7 +137,7 @@ export default function GamePage() {
   const categoryMeta = CATEGORY_META[game.category] || CATEGORY_META.Other;
 
   const handleBack = () => {
-    if (location.key !== "default") {
+    if (location.key == "default") {
       nav(-1); // there is in-app history, so go back
     } else {
       nav("/search", { replace: true }); // opened directly, so go Search page

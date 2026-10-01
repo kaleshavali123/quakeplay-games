@@ -4,7 +4,6 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import GamePage from "./pages/GamePage";
 import SearchPage from "./pages/SearchPage";
-import PlayGame from "./pages/PlayGame";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
 import AboutUs from "./pages/AboutUs";
@@ -21,9 +20,8 @@ export default function App() {
         <div className="content fade">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/game/:id" element={<GamePage />} />
+            <Route path="/:id" element={<GamePage />} />
             <Route path="/search" element={<SearchPage />} />
-            <Route path="/play/:slug" element={<PlayGame />} />
 
             {/* Legal pages */}
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
