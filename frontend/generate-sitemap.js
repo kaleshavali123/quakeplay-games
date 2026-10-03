@@ -39,7 +39,7 @@ function loadGames() {
   if (!fs.existsSync(GAMES_JSON_PATH)) {
     throw new Error(
       `${GAMES_JSON_PATH} not found. Run generate-games-json.js before ` +
-        `generate-sitemap.js (see the "prebuild" script in package.json).`
+      `generate-sitemap.js (see the "prebuild" script in package.json).`
     );
   }
 
@@ -89,9 +89,19 @@ function buildSitemap() {
 
   // Category pages
   const categories = [
-    "Adventure", "Arcade", "Brain", "Cards", "Coloring", "Fantasy",
-    "Girls", "Kids", "Match-3", "Multiplayer", "Puzzle", "Racing",
-    "Simulation", "Sports",
+    "Arcade & Casual",
+    "Puzzle",
+    "Girls & Care",
+    "Sports",
+    "Match 3 & Bubble Shooter",
+    "Action & Adventure",
+    "Racing & Driving",
+    "Card Games",
+    "Mahjong & Tile",
+    "Board Games",
+    "Word & Trivia",
+    "Cooking & Simulation",
+    "Kids & Coloring",
   ];
 
   categories.forEach((category) => {
