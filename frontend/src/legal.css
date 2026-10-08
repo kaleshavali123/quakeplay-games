@@ -1,6 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* Legal pages and footer styles */
 .legal-page {
-  max-width: 900px;
+  max-width: 900px;  
   margin: 40px auto;
   padding: 24px;
   background: #fff;

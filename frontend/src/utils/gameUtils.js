@@ -1,38 +1,156 @@
-const CATEGORY_RULES = {
-  Racing: ["driving", "bikes", "drifting", "traffic", "trucks"],
-  Sports: ["football", "basketball", "golf", "bowling", "billiards", "penalty"],
-  Puzzle: ["logic", "blocks", "sorting", "maze", "matching"],
-  "Match-3": ["jewels", "bubbles", "candy", "connect", "mahjong"],
-  Arcade: ["endless", "tap", "score-based", "reflex"],
-  Action: ["fighting", "shooting", "running", "combat"],
-  Adventure: ["exploration", "quests", "story", "storyplay", "story gameplay"],
-  Girls: ["makeup", "dress-up", "fashion", "salon", "romance"],
-  Kids: ["educational", "animal care", "animals", "simple", "kids"],
-  Cards: ["solitaire", "poker", "blackjack", "chess", "board", "card"],
-  Brain: ["quiz", "iq", "word", "memory"],
-  Coloring: ["painting", "drawing", "pixel art", "creative"],
-  Simulation: ["cooking", "parking", "surgery", "management", "simulator"],
+// ============================================================
+// CATEGORY RULES
+// Based on the categories used in Game Data List.xlsx
+// ============================================================
+
+export const CATEGORY_RULES = {
+  "Arcade & Casual": [
+    "endless",
+    "arcade",
+    "casual",
+    "tap",
+    "reflex",
+    "score",
+    "runner"
+  ],
+
+  Puzzle: [
+    "logic",
+    "blocks",
+    "sorting",
+    "maze",
+    "matching",
+    "puzzle"
+  ],
+
+  "Girls & Care": [
+    "makeup",
+    "dress-up",
+    "dress up",
+    "fashion",
+    "salon",
+    "beauty",
+    "care",
+    "romance"
+  ],
+
+  Sports: [
+    "football",
+    "soccer",
+    "basketball",
+    "golf",
+    "bowling",
+    "billiards",
+    "penalty",
+    "sport"
+  ],
+
+  "Match 3 & Bubble Shooter": [
+    "match 3",
+    "match-3",
+    "jewels",
+    "bubbles",
+    "bubble",
+    "candy",
+    "connect",
+    "mahjong"
+  ],
+
+  "Action & Adventure": [
+    "action",
+    "fighting",
+    "shooting",
+    "running",
+    "combat",
+    "adventure",
+    "exploration",
+    "quest",
+    "story"
+  ],
+
+  "Racing & Driving": [
+    "driving",
+    "racing",
+    "bikes",
+    "bike",
+    "drifting",
+    "traffic",
+    "trucks",
+    "cars",
+    "motorcycle"
+  ],
+
+  "Card Games": [
+    "solitaire",
+    "poker",
+    "blackjack",
+    "cards",
+    "card"
+  ],
+
+  "Mahjong & Tile": [
+    "mahjong",
+    "tile",
+    "tiles"
+  ],
+
+  "Word & Trivia": [
+    "quiz",
+    "trivia",
+    "word",
+    "words",
+    "guess"
+  ],
+
+  "Board Games": [
+    "board",
+    "chess",
+    "checkers",
+    "strategy"
+  ],
+
+  "Cooking & Simulation": [
+    "cooking",
+    "restaurant",
+    "chef",
+    "parking",
+    "surgery",
+    "management",
+    "simulator",
+    "simulation"
+  ],
+
   Fantasy: ["dragons", "unicorns", "magical", "fairytale", "fairy tale"],
-  Multiplayer: ["io", "online", "pvp", "multiplayer", "competition"]
+
+  "Kids & Coloring": [
+    "kids",
+    "children",
+    "educational",
+    "coloring",
+    "painting",
+    "drawing",
+    "animals"
+  ]
 };
 
 export const CATEGORY_META = {
-  Racing: { icon: "🏎️", color: "#ff7f50" },
+  
+  "Racing & Driving": { icon: "🏎️", color: "#ff7f50" },
   Sports: { icon: "🏀", color: "#38bdf8" },
   Puzzle: { icon: "🧩", color: "#8b5cf6" },
-  "Match-3": { icon: "💎", color: "#f97316" },
-  Arcade: { icon: "🎮", color: "#22c55e" },
-  Action: { icon: "⚔️", color: "#ef4444" },
-  Adventure: { icon: "🌍", color: "#0ea5e9" },
-  Girls: { icon: "💄", color: "#ec4899" },
-  Kids: { icon: "🧸", color: "#fbbf24" },
-  Cards: { icon: "🃏", color: "#0f766e" },
-  Brain: { icon: "🧠", color: "#4338ca" },
-  Coloring: { icon: "🎨", color: "#ef4444" },
-  Simulation: { icon: "🛠️", color: "#14b8a6" },
-  Fantasy: { icon: "🐉", color: "#a855f7" },
-  Multiplayer: { icon: "🌐", color: "#2563eb" },
-  Other: { icon: "✨", color: "#64748b" }
+  "Match 3 & Bubble Shooter": { icon: "💎", color: "#f97316" },
+  "Arcade & Casual": { icon: "🎮", color: "#22c55e" },
+  "Action & Adventure": { icon: "⚔️", color: "#ef4444" },
+  "Card Games": { icon: "🃏", color: "#0f766e" },
+  "Mahjong & Tile": { icon: "🀄", color: "#facc15" },
+  "Girls & Care": { icon: "💄", color: "#ec4899" },
+  "Kids & Coloring": { icon: "🧸", color: "#fbbf24" },
+  "Word & Trivia": { icon: "❓", color: "#4338ca" },
+  "Cooking & Simulation": { icon: "🍳", color: "#ef4444" },
+  "Board Games": { icon: "♟️", color: "#14b8a6" },
+   Fantasy: { icon: "🐉", color: "#a855f7" },
+   Multiplayer: { icon: "🌐", color: "#2563eb" },
+   Other: { icon: "✨", color: "#64748b" }
 };
 
 function safeString(value) {

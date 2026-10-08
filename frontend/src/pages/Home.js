@@ -69,12 +69,6 @@ export default function Home() {
           <h1 className="page-title">
             Play Free Online Games Instantly on Quake Play
           </h1>
-
-          <p className="hero-copy">
-            Discover hundreds of free online games including action,
-            racing, puzzle, sports, arcade, strategy, and multiplayer
-            games. No downloads required — play directly in your browser.
-          </p>
         </div>
       </div>
 
@@ -82,11 +76,10 @@ export default function Home() {
         {availableCategories.map((item) => (
           <button
             key={item.category}
-            className={`category-pill ${
-              activeCategory === item.category
+            className={`category-pill ${activeCategory === item.category
                 ? "active"
                 : ""
-            }`}
+              }`}
             onClick={() =>
               setActiveCategory(item.category)
             }
