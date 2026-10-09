@@ -1672,7 +1672,7 @@ html {
 
 @media (max-width: 768px) {
   .page-title {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .hero-copy {
@@ -1687,7 +1687,7 @@ html {
 
 @media (max-width: 480px) {
   .page-title {
-    font-size: 22px;
+    font-size: 12px;
   }
 
   .hero-copy {

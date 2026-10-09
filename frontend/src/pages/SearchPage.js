@@ -74,7 +74,6 @@ export default function SearchPage() {
     <div className="search-page">
       <div className="search-header-row">
         <div>
-          <h2 className="page-title">Search Results</h2>
 
           <p className="hero-copy">
             Showing {filteredGames.length} game
