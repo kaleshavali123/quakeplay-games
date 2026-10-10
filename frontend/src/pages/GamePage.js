@@ -99,27 +99,7 @@ export default function GamePage() {
     };
   }, [game]);
 
-  // SCROLL BEHAVIOR — auto-scroll to iframe on mobile, same as old PlayGame
-  useEffect(() => {
-    if (!game) return;
-    hasScrolledRef.current = false;
-
-    if (typeof window === "undefined" || window.innerWidth > 768) {
-      if (!location.hash) window.scrollTo(0, 0);
-      return;
-    }
-
-    const scrollToGameSection = () => {
-      if (hasScrolledRef.current || !gameSectionRef.current) return;
-      gameSectionRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
-      hasScrolledRef.current = true;
-    };
-
-    const timer = window.setTimeout(scrollToGameSection, 150);
-    requestAnimationFrame(scrollToGameSection);
-
-    return () => window.clearTimeout(timer);
-  }, [game, location.hash]);
+  
 
   if (loading) return <div className="loading-text">Loading Game...</div>;
 
