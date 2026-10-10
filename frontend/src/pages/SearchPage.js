@@ -12,6 +12,9 @@ export default function SearchPage() {
 
   const { games, loading } = useGames();
 
+  const [showCategories, setShowCategories] = useState(false);
+
+
   useEffect(() => {
     document.title = q
       ? `Search: ${q} - Quake Play`
@@ -71,7 +74,6 @@ export default function SearchPage() {
     return <h2 className="loading-text">Loading Games...</h2>;
   }
 
-  const [showCategories, setShowCategories] = useState(false);
 
   return (
     <div className="search-page">

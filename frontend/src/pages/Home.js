@@ -4,10 +4,14 @@ import GameCard from "../components/GameCard";
 import { useGames } from "../hooks/useGames";
 import { slugify } from "../utils/gameUtils";
 
+
 export default function Home() {
   const { games, loading, CATEGORY_META } = useGames();
 
   const [activeCategory, setActiveCategory] = useState("All");
+  
+  const [showCategories, setShowCategories] = useState(false);
+
 
   useEffect(() => {
     document.title = "Quake Play - Play for free online";
@@ -62,6 +66,7 @@ export default function Home() {
     return <h2 className="loading-text">Loading Games...</h2>;
   }
 
+
   return (
     <div className="home-page">
       <div className="home-hero">
@@ -72,26 +77,43 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="category-toolbar">
-        {availableCategories.map((item) => (
-          <button
-            key={item.category}
-            className={`category-pill ${activeCategory === item.category
-                ? "active"
-                : ""
-              }`}
-            onClick={() =>
-              setActiveCategory(item.category)
-            }
-          >
-            {item.category}
+      <div className="category-toolbar-wrapper">
+        {/* Burger button - visible on mobile */}
+        <button
+          className="category-menu-toggle"
+          onClick={() => setShowCategories(!showCategories)}
+          aria-label={showCategories ? "Close categories" : "Open categories"}
+          aria-expanded={showCategories}
+        >
+          {showCategories ? "✕" : "☰"}
+          <span>Categories</span>
+          <span className="current-category">
+            {activeCategory}
+          </span>
+        </button>
 
-            <span className="pill-count">
-              {item.count}
-            </span>
-          </button>
-        ))}
+        {/* Category buttons */}
+        <div
+          className={`category-toolbar ${showCategories ? "show-categories" : ""
+            }`}
+        >
+          {availableCategories.map((item) => (
+            <button
+              key={item.category}
+              className={`category-pill ${activeCategory === item.category ? "active" : ""
+                }`}
+              onClick={() => {
+                setActiveCategory(item.category);
+                setShowCategories(false);
+              }}
+            >
+              {item.category}
+              <span className="pill-count">{item.count}</span>
+            </button>
+          ))}
+        </div>
       </div>
+
 
       {categoryGroups.length === 0 ? (
         <p className="no-results">
