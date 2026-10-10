@@ -2,6 +2,7 @@ import { useEffect, useMemo } from "react";
 import { useSearchParams } from "react-router-dom";
 import GameCard from "../components/GameCard";
 import { useGames } from "../hooks/useGames";
+import {useState } from "react";
 
 export default function SearchPage() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -70,6 +71,8 @@ export default function SearchPage() {
     return <h2 className="loading-text">Loading Games...</h2>;
   }
 
+  const [showCategories, setShowCategories] = useState(false);
+
   return (
     <div className="search-page">
       <div className="search-header-row">
@@ -88,19 +91,55 @@ export default function SearchPage() {
         </div>
       </div>
 
-      <div className="category-toolbar">
-        {categoryOptions.map((category) => (
-          <button
-            key={category}
-            className={`category-pill ${
-              activeCategory === category ? "active" : ""
+
+      <div className="category-toolbar-wrapper">
+        <button
+          type="button"
+          className="category-menu-toggle"
+          onClick={() =>
+            setShowCategories((previous) => !previous)
+          }
+          aria-expanded={showCategories}
+          aria-label={
+            showCategories ? "Close categories" : "Open categories"
+          }
+        >
+          <span className="category-menu-icon">
+            {showCategories ? "✕" : "☰"}
+          </span>
+
+          <span>Categories</span>
+
+          <span className="current-category">
+            {activeCategory}
+          </span>
+        </button>
+
+        <div
+          className={`category-toolbar ${showCategories ? "show-categories" : ""
             }`}
-            onClick={() => handleCategoryChange(category)}
-          >
-            {category}
-          </button>
-        ))}
+        >
+          {categoryOptions.map((category) => (
+            <button
+              type="button"
+              key={category}
+              className={`category-pill ${activeCategory === category ? "active" : ""
+                }`}
+              onClick={() => {
+                handleCategoryChange(category);
+                setShowCategories(false);
+              }}
+            >
+              {category}
+
+              {activeCategory === category && (
+                <span className="category-check">✓</span>
+              )}
+            </button>
+          ))}
+        </div>
       </div>
+
 
       {filteredGames.length === 0 ? (
         <p className="no-results">
