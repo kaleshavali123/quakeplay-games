@@ -76,23 +76,6 @@ export default function SearchPage() {
 
 
   return (
-    <div className="search-page">
-      <div className="search-header-row">
-        <div>
-
-          <p className="hero-copy">
-            Showing {filteredGames.length} game
-            {filteredGames.length === 1 ? "" : "s"} in "
-            {activeCategory}
-            "
-            {activeCategory === "All" && q
-              ? ` for "${q}"`
-              : ""}
-            .
-          </p>
-        </div>
-      </div>
-
 
       <div className="category-toolbar-wrapper">
         <button
@@ -140,6 +123,23 @@ export default function SearchPage() {
             </button>
           ))}
         </div>
+
+      <div className="search-page">
+      <div className="search-header-row">
+        <div>
+
+          <p className="hero-copy">
+            Showing {filteredGames.length} game
+            {filteredGames.length === 1 ? "" : "s"} in "
+            {activeCategory}
+            "
+            {activeCategory === "All" && q
+              ? ` for "${q}"`
+              : ""}
+            .
+          </p>
+        </div>
+      </div>
       </div>
 
 

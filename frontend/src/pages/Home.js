@@ -69,13 +69,6 @@ export default function Home() {
 
   return (
     <div className="home-page">
-      <div className="home-hero">
-        <div>
-          <h1 className="page-title">
-            Play Free Online Games Instantly on Quake Play
-          </h1>
-        </div>
-      </div>
 
       <div className="category-toolbar-wrapper">
         {/* Burger button - visible on mobile */}
