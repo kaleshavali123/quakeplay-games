@@ -44,9 +44,11 @@ a {
   padding: 10px 30px;
   background: var(--nav-bg);
   box-shadow: var(--shadow-sm);
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 100;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
   height: 70px;
 }
 .logo {
@@ -1405,6 +1407,8 @@ html {
     padding-left:4px;
 
     padding-right:24px;
+
+    padding-top:70px;
 
   }
 
