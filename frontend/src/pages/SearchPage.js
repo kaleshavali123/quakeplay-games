@@ -76,6 +76,7 @@ export default function SearchPage() {
 
 
   return (
+    <div className="search-page">
 
       <div className="category-toolbar-wrapper">
         <button
@@ -124,7 +125,6 @@ export default function SearchPage() {
           ))}
         </div>
 
-      <div className="search-page">
       <div className="search-header-row">
         <div>
 

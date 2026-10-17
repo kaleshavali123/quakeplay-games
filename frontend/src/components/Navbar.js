@@ -49,6 +49,7 @@ export default function Navbar() {
           value={q}
           onChange={(e) => setQ(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && handleSearch()}
+          autoComplete="on"
         />
 
         {q && (
