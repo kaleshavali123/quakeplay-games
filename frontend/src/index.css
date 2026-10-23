@@ -1973,6 +1973,7 @@ html {
     display: none;
     position: static;
     flex-direction: column;
+    flex-wrap: nowrap;                  /* ADDED: overrides desktop wrap */
     align-items: stretch;
     gap: 8px;
     margin-top: 10px;
@@ -1983,6 +1984,12 @@ html {
     background: #fff;
     box-shadow: var(--shadow-sm);
     z-index: 20;
+
+    max-height: 60vh;                   /* ADDED: scroll feature */
+    overflow-y: auto;                   /* ADDED */
+    overflow-x: hidden;                 /* ADDED */
+    -webkit-overflow-scrolling: touch;  /* ADDED */
+    overscroll-behavior: contain;       /* ADDED */
   }
 
   /* Open when burger is clicked */
@@ -2000,6 +2007,7 @@ html {
     border-radius: 9px;
     font-size: 14px;
     text-align: left;
+    flex-shrink: 0;                     /* ADDED: keeps pills from squishing */
   }
 
   .category-check {
