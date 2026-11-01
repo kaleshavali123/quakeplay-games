@@ -1,6 +1,16 @@
 import { useState, useEffect } from "react";
 import { buildGameRecord, CATEGORY_META } from "../utils/gameUtils";
 
+// ADDED: Fisher-Yates shuffle (returns a new array)
+function shuffle(list) {
+  const arr = [...list];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
 let cachedGames = null;
 
 export function useGames() {
@@ -17,11 +27,11 @@ export function useGames() {
         }
         return res.json();
       })
+
       .then((rows) => {
-        // rows are already filtered to have Name + Link by
-        // generate-games-json.js, but buildGameRecord still runs here so
-        // categories/display fields stay in sync with gameUtils.js.
-        const validGames = rows.map((g, index) => buildGameRecord(g, index));
+        const validGames = shuffle(                      // ADDED: shuffle after building
+          rows.map((g, index) => buildGameRecord(g, index))
+        );
 
         cachedGames = validGames;
         setGames(validGames);

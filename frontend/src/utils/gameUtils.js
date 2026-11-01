@@ -183,6 +183,10 @@ function findKnownCategory(value) {
 }
 
 export function categorizeGame({ name, tags, description, existingCategory }) {
+  // CHANGED: use the category from games.json when it is one of your known categories
+  const known = findKnownCategory(existingCategory);
+  if (known) return known;
+
   const text = `${name} ${tags} ${description} ${existingCategory}`.toLowerCase();
   const tokens = splitTags(text).concat(text.split(/\W+/));
   const score = Object.entries(CATEGORY_RULES).map(([category, keywords]) => {
@@ -198,8 +202,7 @@ export function categorizeGame({ name, tags, description, existingCategory }) {
     return score[0].category;
   }
 
-  const known = findKnownCategory(existingCategory);
-  return known || "Other";
+  return "Other"; // CHANGED: `known` is already handled above
 }
 
 export function buildGameRecord(row, index) {
@@ -209,7 +212,7 @@ export function buildGameRecord(row, index) {
   const tags = splitTags(row.Tags).map(tag => tag.toLowerCase());
   const description = safeString(row.Description) || "Fast HTML5 fun with easy controls and instant play.";
   const instructions = safeString(row.Instructions) || "Tap or click to start. Use arrow keys or touch controls where available.";
-  const relatedSlugs = splitTags(row.Related || row["Related Games"]).map(slugify);
+  const relatedSlugs = splitTags(row.Related || row["Related Games"] || row.RelatedGames).map(slugify);
   const category = categorizeGame({
     name,
     tags: tags.join(" "),
