@@ -149,7 +149,7 @@ export default function ContactUs() {
   }, [status, error]);
 
   return (
-    <main className="legal-page contact-page">
+    <main className="legal-page">
       <div className="contact-header">
         <div>
           <h1>Contact Us</h1>

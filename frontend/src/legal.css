@@ -6,7 +6,8 @@
 /* Legal pages and footer styles */
 .legal-page {
   max-width: 900px;  
-  margin: 40px auto;
+  margin: 80px auto;
+
   padding: 24px;
   background: #fff;
   border-radius: 12px;
@@ -38,9 +39,10 @@
 .footer-copy { color:#64748b; font-size:13px }
 
 @media (max-width: 768px) {
-  .legal-page { padding: 18px; margin: 20px 12px }
+  .legal-page { padding: 18px; margin: 120px 12px }
   .footer-inner { flex-direction: column; gap:8px; text-align:center }
 }
+
 
 .contact-page .contact-header {
   display: grid;
