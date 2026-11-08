@@ -105,7 +105,7 @@ export default function ContactUs() {
 
     try {
       const formData = new FormData(event.target);
-      const response = await fetch("https://formspree.io/f/xkoddwzd", {
+      const response = await fetch("https://formspree.io/f/mrppwgbk", {
         method: "POST",
         body: formData,
         headers: {
@@ -159,7 +159,7 @@ export default function ContactUs() {
         </div>
         <div className="contact-quick-help">
           <p><strong>Email</strong></p>
-          <a href="mailto:shaikvali0922@gmail.com">shaikvali0922@gmail.com</a>
+          <a href="mailto:html5gamesquakeplay@gmail.com">html5gamesquakeplay@gmail.com</a>
         </div>
       </div>
 
