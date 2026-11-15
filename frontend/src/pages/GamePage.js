@@ -107,7 +107,7 @@ export default function GamePage() {
     return (
       <div className="error-state">
         <h1>Game Not Found</h1>
-        <button className="btn-primary" onClick={() => nav("/")}>
+        <button className="back-home-btn" onClick={() => nav("/")}>
           Back to Home
         </button>
       </div>
