@@ -2,9 +2,9 @@ import { useEffect } from "react";
 
 export default function PrivacyPolicy() {
   useEffect(() => {
-    document.title = "Privacy Policy - Quake Play";
+    document.title = "Privacy Policy - QuakePlay";
     const desc = document.querySelector("meta[name='description']");
-    if (desc) desc.setAttribute("content", "Read Quake Play's Privacy Policy to understand how we collect, use, and protect your data on our gaming platform.");
+    if (desc) desc.setAttribute("content", "Read QuakePlay's Privacy Policy to understand how we collect, use, and protect your data on our gaming platform.");
     const canonical = document.querySelector("link[rel='canonical']");
     if (canonical) canonical.setAttribute("href", "https://www.quakeplay.com/privacy-policy/");
   }, []);
@@ -15,7 +15,7 @@ export default function PrivacyPolicy() {
       <p className="meta">Effective Date: August 2026 | Last Updated: August 2026</p>
 
       <h2>1. Introduction</h2>
-      <p>Welcome to Quake Play ("we," "us," "our," or "Company"). We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website quakeplay.com (the "Site") and play our online games.</p>
+      <p>Welcome to QuakePlay ("we," "us," "our," or "Company"). We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website quakeplay.com (the "Site") and play our online games.</p>
 
       <h2>2. Information We Collect</h2>
       <h3>2.1 Automatically Collected Information</h3>
@@ -47,7 +47,7 @@ export default function PrivacyPolicy() {
       </ul>
 
       <h2>4. Children's Privacy (COPPA Compliance)</h2>
-      <p>Quake Play does not knowingly collect personal information from children under 13 years of age. If we become aware that we have collected information from a child under 13, we will delete such information immediately. Our games are intended for users aged 13 and above. Parents or guardians who believe their child has provided information to us should contact us immediately at <a href="mailto:html5gamesquakeplay@gmail.com">html5gamesquakeplay@gmail.com</a>.</p>
+      <p>QuakePlay does not knowingly collect personal information from children under 13 years of age. If we become aware that we have collected information from a child under 13, we will delete such information immediately. Our games are intended for users aged 13 and above. Parents or guardians who believe their child has provided information to us should contact us immediately at <a href="mailto:html5gamesquakeplay@gmail.com">html5gamesquakeplay@gmail.com</a>.</p>
 
       <h2>5. Data Sharing and Disclosure</h2>
       <p>We do not sell your personal information. However, we may share information with:</p>
@@ -78,7 +78,7 @@ export default function PrivacyPolicy() {
 
       <h2>10. Contact Us</h2>
       <p>If you have questions about this Privacy Policy or our privacy practices, please contact us at:</p>
-      <p>Quake Play<br />
+      <p>QuakePlay<br />
       Email: <a href="mailto:html5gamesquakeplay@gmail.com">html5gamesquakeplay@gmail.com</a><br />
       Website: <a href="https://www.quakeplay.com">https://www.quakeplay.com</a></p>
 

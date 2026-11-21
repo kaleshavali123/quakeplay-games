@@ -17,8 +17,8 @@ export default function SearchPage() {
 
   useEffect(() => {
     document.title = q
-      ? `Search: ${q} - Quake Play`
-      : "Search Games - Quake Play";
+      ? `Search: ${q} - QuakePlay`
+      : "Search Games - QuakePlay";
   }, [q]);
 
   useEffect(() => {

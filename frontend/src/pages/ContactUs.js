@@ -37,10 +37,10 @@ export default function ContactUs() {
   const [nameWarning, setNameWarning] = useState("");
 
   useEffect(() => {
-    document.title = "Contact Us - Quake Play";
+    document.title = "Contact Us - QuakePlay";
     const desc = document.querySelector("meta[name='description']");
     if (desc) {
-      desc.setAttribute("content", "Contact Quake Play support for help, feedback, or partnership inquiries.");
+      desc.setAttribute("content", "Contact QuakePlay support for help, feedback, or partnership inquiries.");
     }
     const canonical = document.querySelector("link[rel='canonical']");
     if (canonical) {
@@ -154,7 +154,7 @@ export default function ContactUs() {
         <div>
           <h1>Contact Us</h1>
           <p className="meta">
-            Need help, want to report a bug, or have a question for the Quake Play team? Fill out the form below and we'll contact you soon.
+            Need help, want to report a bug, or have a question for the QuakePlay team? Fill out the form below and we'll contact you soon.
           </p>
         </div>
         <div className="contact-quick-help">
@@ -175,7 +175,7 @@ export default function ContactUs() {
           )}
 
           <form className="contact-form" onSubmit={handleSubmit}>
-            <input type="hidden" name="_subject" value="Quake Play Contact Form Submission" />
+            <input type="hidden" name="_subject" value="QuakePlay Contact Form Submission" />
 
             <div className="form-row">
               <label htmlFor="name">Full Name *</label>
@@ -254,7 +254,7 @@ export default function ContactUs() {
       </div>
 
       <div className="contact-postscript">
-        <h3>Why contact Quake Play?</h3>
+        <h3>Why contact QuakePlay?</h3>
         <ul>
           <li>Report gameplay issues and bugs</li>
           <li>Share ideas for new games or features</li>
@@ -266,7 +266,7 @@ export default function ContactUs() {
         <a href="/privacy-policy">Privacy Policy</a> • <a href="/terms-of-service">Terms of Service</a>
       </nav>
 
-      <footer className="legal-footer">© 2026 Quake Play. Last Updated: August 5, 2026</footer>
+      <footer className="legal-footer">© 2026 QuakePlay. Last Updated: August 5, 2026</footer>
     </main>
   );
 }

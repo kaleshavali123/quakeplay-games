@@ -56,8 +56,8 @@ export default function GamePage() {
   useEffect(() => {
     if (!game) return;
 
-    const pageTitle = `Play ${game.Name} Online for Free | Quake Play`;
-    const pageDescription = `Play ${game.Name} online for free on Quake Play. ${game.description || ""}`;
+    const pageTitle = `Play ${game.Name} Online for Free | QuakePlay`;
+    const pageDescription = `Play ${game.Name} online for free on QuakePlay. ${game.description || ""}`;
 
     document.title = pageTitle;
 
@@ -89,7 +89,7 @@ export default function GamePage() {
       image: game.Icon,
       genre: game.category,
       url: `https://quakeplay.com/game/${game.slug}`,
-      publisher: { "@type": "Organization", name: "Quake Play" },
+      publisher: { "@type": "Organization", name: "QuakePlay" },
     });
     document.head.appendChild(schema);
 
@@ -165,7 +165,7 @@ export default function GamePage() {
 
           <h3>Game Overview</h3>
           <p>
-            {game.Name} is a popular {game.category} game available on Quake Play.
+            {game.Name} is a popular {game.category} game available on QuakePlay.
             Enjoy instant gameplay directly in your browser without downloading or installing anything.
           </p>
 

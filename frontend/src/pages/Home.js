@@ -14,7 +14,7 @@ export default function Home() {
 
 
   useEffect(() => {
-    document.title = "Quake Play - Play for free online";
+    document.title = "QuakePlay - Play for free online";
   }, []);
 
   // Categories
