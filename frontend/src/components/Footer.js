@@ -14,7 +14,7 @@ export default function Footer() {
           <a href="/contact">Contact Us</a>
         </nav>
 
-        <div className="footer-copy">Copyright © 2026 Quake Play. All rights reserved.</div>
+        <div className="footer-copy">Copyright © 2026 QuakePlay. All rights reserved.</div>
       </div>
     </footer>
   );
